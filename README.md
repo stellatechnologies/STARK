@@ -3,7 +3,7 @@
 ![STARK Logo](STARK_Logo.jpg)
 
 ## Latest Schema Version
-[1.0.0](https://github.com/stellatechnologies/CyberDataSchema)
+[2.0.0](https://github.com/stellatechnologies/CyberDataSchema)
 
 ## Description
 
