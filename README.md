@@ -62,9 +62,9 @@ STARK is a Systems Engineering and Cybersecurity model that is used for research
 
 ### System
 
-| UUID | Name | Description | Parent_ID | AuthorizationBoundary_ID | Acronym |
-| --- | --- | --- | --- | --- | --- |
-| ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
+| UUID | Name | Description | Parent_ID | AuthorizationBoundary_ID | Acronym | Software |
+| --- | --- | --- | --- | --- | --- | --- |
+| ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
 
 
 *✅ Green Check Mark indicates the attribute is captured by the system.*
