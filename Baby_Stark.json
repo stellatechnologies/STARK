@@ -6,7 +6,7 @@
             "Name": "STARK Platform",
             "Description": "An advanced UAV system designed for autonomous missions involving reconnaissance, extraction, and threat neutralization.",
             "UUID": "f97d9850-994f-4ab8-8f0c-ed1dddc880b9",
-            "Acronym": null,
+            "Acronym": null, 
             "Software": false
         },
         {
@@ -1160,6 +1160,285 @@
             "UUID": "75f2fdcf-9e44-4698-9d07-b75d984a7f76",
             "Acronym": null,
             "Software": false
+        },
+        {
+            "UUID": "0467ae48-843b-442d-930f-31982b1d68c1",
+            "Parent_ID": "6155bf5e-56b6-47dc-b213-f067f7f1cdb4",
+            "AuthorizationBoundary_ID": null,
+            "Name": "Data Science Lab",
+            "Description": "Facility equipped with computing resources for data analysis and research.",
+            "Acronym": null,
+            "Software": false
+        },
+        {
+            "UUID": "198e0be8-9153-4088-b70b-cf7c2aa2db60",
+            "Parent_ID": "6155bf5e-56b6-47dc-b213-f067f7f1cdb4",
+            "AuthorizationBoundary_ID": null,
+            "Name": "Servers and IT Infrastructure",
+            "Description": "Hardware and network components supporting IT operations.",
+            "Acronym": null,
+            "Software": false
+        },
+        {
+            "UUID": "0f5aba03-9944-447f-8cba-8ea98d4f481c",
+            "Name": "HPC Cluster",
+            "Acronym": "HPCC",
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "0467ae48-843b-442d-930f-31982b1d68c1",
+            "Description": "A cluster of compute nodes for large-scale data processing and simulations.",
+            "Software": false
+        },
+        {
+            "UUID": "8623030f-1624-4d44-840e-637a236f9bf1",
+            "Name": "HPC Manager Node",
+            "Acronym": "HPC-MN",
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "0f5aba03-9944-447f-8cba-8ea98d4f481c",
+            "Description": "Head node to manage job scheduling and cluster orchestration.",
+            "Software": false
+        },
+        {
+            "UUID": "527df8fc-ff99-4f0e-bb94-a3e156d0a360",
+            "Name": "HPC Compute Node #1",
+            "Acronym": "HPC-CN1",
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "0f5aba03-9944-447f-8cba-8ea98d4f481c",
+            "Description": "General-purpose compute node with 64 CPU cores, 256 GB RAM.",
+            "Software": false
+        },
+        {
+            "UUID": "1f9d6830-d931-419c-9be5-ecaf6aa3746f",
+            "Name": "HPC Compute Node #2",
+            "Acronym": "HPC-CN2",
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "0f5aba03-9944-447f-8cba-8ea98d4f481c",
+            "Description": "General-purpose compute node with 64 CPU cores, 256 GB RAM.",
+            "Software": false
+        },
+        {
+            "UUID": "e89b1b72-6ee6-42bc-a1df-49e64e55453c",
+            "Name": "HPC GPU Node",
+            "Acronym": "HPC-GPU",
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "0f5aba03-9944-447f-8cba-8ea98d4f481c",
+            "Description": "Compute node optimized for GPU-based workloads, 4 GPUs, 512 GB RAM.",
+            "Software": false
+        },
+        {
+            "UUID": "d39dff27-8167-4a82-ba6c-4e6b288af3bc",
+            "Name": "HPC Infiniband Switch",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "0f5aba03-9944-447f-8cba-8ea98d4f481c",
+            "Description": "Internal HPC Infiniband switch for low-latency inter-node communication.",
+            "Software": false
+        },
+        {
+            "UUID": "bb29a383-6043-40b9-99f1-471891254fd8",
+            "Name": "HPC SSD #1",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "527df8fc-ff99-4f0e-bb94-a3e156d0a360",
+            "Description": "A physical 2TB SSD device used for high-speed local storage on HPC Compute Node #1.",
+            "Software": false
+        },
+        {
+            "UUID": "bb7b0ef9-b853-4627-9b72-3eb88a287828",
+            "Name": "GPU Analysis Workstation",
+            "Acronym": "GAW",
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "0467ae48-843b-442d-930f-31982b1d68c1",
+            "Description": "A powerful desktop workstation with dedicated GPUs for analytics and model training.",
+            "Software": false
+        },
+        {
+            "UUID": "c3c17ef2-4725-4773-ba9a-88bebe621485",
+            "Name": "GPU Workstation NVMe",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "bb7b0ef9-b853-4627-9b72-3eb88a287828",
+            "Description": "High-speed 1TB NVMe drive for GPU workstation local storage.",
+            "Software": false
+        },
+        {
+            "UUID": "06cbe73a-4158-49fd-96d3-d8e0f794f8fe",
+            "Name": "Visualization Workstation",
+            "Acronym": "VIZ-WS",
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "0467ae48-843b-442d-930f-31982b1d68c1",
+            "Description": "High-end workstation for data visualization and rendering tasks.",
+            "Software": false
+        },
+        {
+            "UUID": "9406f2e1-ab43-4b04-8bd2-fffe06cc06bd",
+            "Name": "Data Storage Node",
+            "Acronym": "DSN",
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "0467ae48-843b-442d-930f-31982b1d68c1",
+            "Description": "Centralized storage solution (NAS/SAN) for large datasets.",
+            "Software": false
+        },
+        {
+            "UUID": "c77ed1c3-6d40-44d9-ad9b-437b52e0fffb",
+            "Name": "VM Host Server 1",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "198e0be8-9153-4088-b70b-cf7c2aa2db60",
+            "Description": "First hypervisor host for corporate IT services.",
+            "Software": false
+        },
+        {
+            "UUID": "dd50cadb-3d90-4c4b-bdd9-ff8e21fa6416",
+            "Name": "VM Host1 Boot Drive",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "c77ed1c3-6d40-44d9-ad9b-437b52e0fffb",
+            "Description": "512GB SSD used for OS boot on VM Host1.",
+            "Software": false
+        },
+        {
+            "UUID": "b4bb294c-ca92-4653-a0e3-1aed243e1df9",
+            "Name": "VM Host Server 2",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "198e0be8-9153-4088-b70b-cf7c2aa2db60",
+            "Description": "Second hypervisor host for corporate IT services.",
+            "Software": false
+        },
+        {
+            "UUID": "e4851581-c399-4fd4-af40-bfc960c0eac1",
+            "Name": "Directory Services / Domain Controller",
+            "Acronym": "DC1",
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "198e0be8-9153-4088-b70b-cf7c2aa2db60",
+            "Description": "Windows or Linux-based domain controller for authentication and policy management.",
+            "Software": false
+        },
+        {
+            "UUID": "fbfd2f14-6e42-4f86-ae70-6b8a140443ee",
+            "Name": "Core Network Switch",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "198e0be8-9153-4088-b70b-cf7c2aa2db60",
+            "Description": "High-throughput managed switch for data center traffic routing.",
+            "Software": false
+        },
+        {
+            "UUID": "f88819e0-4287-4fea-915a-08373dfa8ae7",
+            "Name": "Network Firewall",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "198e0be8-9153-4088-b70b-cf7c2aa2db60",
+            "Description": "Hardware firewall for controlling inbound/outbound traffic to the corporate network.",
+            "Software": false
+        },
+        {
+            "UUID": "32981f3c-2db6-48b8-8407-d26e099d8efd",
+            "Name": "Backup Server",
+            "Acronym": "BKP-SRV",
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "198e0be8-9153-4088-b70b-cf7c2aa2db60",
+            "Description": "Dedicated server for backup storage and restoration services.",
+            "Software": false
+        },
+        {
+            "UUID": "7cfb278d-87a7-4048-935a-e561294912a3",
+            "Name": "External Backup Drive",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "32981f3c-2db6-48b8-8407-d26e099d8efd",
+            "Description": "A removable USB 500GB drive for offline backups.",
+            "Software": false
+        },
+        {
+            "UUID": "b4bab9b3-d01e-4da9-9b7b-b6007484f2c4",
+            "Name": "Linux HPC OS",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "527df8fc-ff99-4f0e-bb94-a3e156d0a360",
+            "Description": "A specialized Linux distro for HPC workloads (kernel optimizations, job schedulers).",
+            "Software": true
+        },
+        {
+            "UUID": "106f3641-b64a-4d52-9ccd-92c8d910b909",
+            "Name": "Windows Server OS",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "e4851581-c399-4fd4-af40-bfc960c0eac1",
+            "Description": "Windows Server operating system providing Active Directory, DNS, etc.",
+            "Software": true
+        },
+        {
+            "UUID": "1dc562f3-b8f6-42e1-955f-2f99969eb297",
+            "Name": "HPC Job Scheduler",
+            "Acronym": "SLURM/LSF/XYZ",
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "8623030f-1624-4d44-840e-637a236f9bf1",
+            "Description": "Software that queues and schedules HPC jobs across cluster nodes.",
+            "Software": true
+        },
+        {
+            "UUID": "281af390-1cb0-4307-95e9-716efad807b2",
+            "Name": "Machine Learning Framework",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "bb7b0ef9-b853-4627-9b72-3eb88a287828",
+            "Description": "Software library (e.g., TensorFlow, PyTorch) for building neural networks.",
+            "Software": true
+        },
+        {
+            "UUID": "715a7377-3d5f-48b5-b88c-cd7182c96b5e",
+            "Name": "Data Visualization Software",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "06cbe73a-4158-49fd-96d3-d8e0f794f8fe",
+            "Description": "3D rendering and data visualization suite for large datasets.",
+            "Software": true
+        },
+        {
+            "UUID": "b3f28f2d-0ddd-43cf-8414-47200c29f09c",
+            "Name": "Database Server",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "c77ed1c3-6d40-44d9-ad9b-437b52e0fffb",
+            "Description": "Relational DB software storing application data.",
+            "Software": true
+        },
+        {
+            "UUID": "b60f9839-c244-4f55-8a2b-ba54d6a4c139",
+            "Name": "Web Server",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "b4bb294c-ca92-4653-a0e3-1aed243e1df9",
+            "Description": "HTTP/HTTPS server providing intranet or public-facing web services.",
+            "Software": true
+        },
+        {
+            "UUID": "9e23880e-042b-4475-8221-e537b7e0154c",
+            "Name": "Backup Management Software",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "32981f3c-2db6-48b8-8407-d26e099d8efd",
+            "Description": "Orchestrates backups from multiple servers and stores them.",
+            "Software": true
+        },
+        {
+            "UUID": "b6594a20-8088-4726-86fb-2a8a09ddce0c",
+            "Name": "Security / Anti-Virus Agent",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "bb7b0ef9-b853-4627-9b72-3eb88a287828",
+            "Description": "Software agent providing anti-virus and endpoint protection.",
+            "Software": true
+        },
+        {
+            "UUID": "46dd65f6-7469-404c-a7ba-4904d9ce8e22",
+            "Name": "Hypervisor Software",
+            "Acronym": null,
+            "AuthorizationBoundary_ID": null,
+            "Parent_ID": "c77ed1c3-6d40-44d9-ad9b-437b52e0fffb",
+            "Description": "Hypervisor layer enabling multiple VMs on the host.",
+            "Software": true
         }
     ],
     "Confidentiality": [
@@ -4938,6 +5217,156 @@
             "Confidentiality_ID": null,
             "Integrity_ID": null,
             "Availability_ID": null
+        },
+        {
+            "UUID": "b510e788-8ff7-4142-8af6-5a77b1856a0e",
+            "Mission_ID": "1cdce144-b4b1-46dc-9088-32e5db444562",
+            "OperationalData_ID": "8bda9863-beb4-421b-a6dd-b1dffbf9a9f2",
+            "InputData": true,
+            "Confidentiality_ID": "680cfd3a-ac60-4cec-9184-8f376c4d3a51",
+            "Integrity_ID": "45f8b0c9-f2f2-4782-80cf-acc917cb4373",
+            "Availability_ID": "16496f53-49b7-42b3-8cbe-a233d055f12d",
+            "CIAJustification": "Raw sensor data is vital for real-time operational decisions, requiring moderate integrity & high availability."
+        },
+        {
+            "UUID": "961b1849-be7c-4b15-b733-cabba3693144",
+            "Mission_ID": "1cdce144-b4b1-46dc-9088-32e5db444562",
+            "OperationalData_ID": "f53369a9-222f-4695-844e-b1ef420326d5",
+            "InputData": false,
+            "Confidentiality_ID": "680cfd3a-ac60-4cec-9184-8f376c4d3a51",
+            "Integrity_ID": "1015c92b-ac2e-4691-a0f5-c283f461a30f",
+            "Availability_ID": "290799c9-115b-4f6c-8951-9aa22d46ff05",
+            "CIAJustification": "System logs must remain accurate (high integrity), but are less time-critical to mission success."
+        },
+        {
+            "UUID": "0a8e9e2d-f07a-4451-97a5-1cdec6a512e3",
+            "Mission_ID": "510125ec-cbd8-4c5e-b1c0-6d08d4f16b27",
+            "OperationalData_ID": "cb0db5f8-2326-4286-9c5d-a477ee0a48f0",
+            "InputData": true,
+            "Confidentiality_ID": "41ba3d58-9b40-4ac3-87b3-bddc39a5d9fa",
+            "Integrity_ID": "1015c92b-ac2e-4691-a0f5-c283f461a30f",
+            "Availability_ID": "16496f53-49b7-42b3-8cbe-a233d055f12d",
+            "CIAJustification": "In-progress HPC data is crucial for analyzing gemstone deposits in near real-time."
+        },
+        {
+            "UUID": "cd6bb498-6864-45b0-9f3e-b53828bb146d",
+            "Mission_ID": "510125ec-cbd8-4c5e-b1c0-6d08d4f16b27",
+            "OperationalData_ID": "92899dbb-3476-4926-b873-477c7de8f463",
+            "InputData": false,
+            "Confidentiality_ID": "41ba3d58-9b40-4ac3-87b3-bddc39a5d9fa",
+            "Integrity_ID": "1015c92b-ac2e-4691-a0f5-c283f461a30f",
+            "Availability_ID": "290799c9-115b-4f6c-8951-9aa22d46ff05",
+            "CIAJustification": "Archived analytics are used for reference but not real-time operations."
+        },
+        {
+            "UUID": "7fcd112b-e361-44b9-aa43-17c34bf690ed",
+            "Mission_ID": "c6145593-531a-47a5-a12d-2fe671a79676",
+            "OperationalData_ID": "8bda9863-beb4-421b-a6dd-b1dffbf9a9f2",
+            "InputData": true,
+            "Confidentiality_ID": "680cfd3a-ac60-4cec-9184-8f376c4d3a51",
+            "Integrity_ID": "45f8b0c9-f2f2-4782-80cf-acc917cb4373",
+            "Availability_ID": "05e06c12-304c-42e9-b0fc-aa88f5391d23",
+            "CIAJustification": "Gemstone detection heavily depends on continuous sensor data\u00e2\u20ac\u201dmust be available at all times."
+        },
+        {
+            "UUID": "0cf14fc6-934e-4110-b177-4a96e83d2c1b",
+            "Mission_ID": "9bbacd45-6555-4c14-9091-14b7cbb518a1",
+            "OperationalData_ID": "f53369a9-222f-4695-844e-b1ef420326d5",
+            "InputData": false,
+            "Confidentiality_ID": "680cfd3a-ac60-4cec-9184-8f376c4d3a51",
+            "Integrity_ID": "1015c92b-ac2e-4691-a0f5-c283f461a30f",
+            "Availability_ID": "290799c9-115b-4f6c-8951-9aa22d46ff05",
+            "CIAJustification": "Sensor prep references logs to check errors. Accuracy is key, but real-time criticality is moderate."
+        },
+        {
+            "UUID": "ec9306ff-2d31-42cb-9187-b6a864efb712",
+            "Mission_ID": "9bbacd45-6555-4c14-9091-14b7cbb518a1",
+            "OperationalData_ID": "c9e4e248-52fc-4586-8a19-edec2c7faf3b",
+            "InputData": true,
+            "Confidentiality_ID": "41ba3d58-9b40-4ac3-87b3-bddc39a5d9fa",
+            "Integrity_ID": "45f8b0c9-f2f2-4782-80cf-acc917cb4373",
+            "Availability_ID": "16496f53-49b7-42b3-8cbe-a233d055f12d",
+            "CIAJustification": "Calibration and sensor test rely on working data; must be available & consistent but medium confidentiality."
+        },
+        {
+            "UUID": "870c7608-9a85-4792-85c6-1e76643c6089",
+            "Mission_ID": "81b873b0-b9a5-4069-a769-34ad321d161b",
+            "OperationalData_ID": "57b7db3c-072f-499c-80a8-11667962d9a9",
+            "InputData": false,
+            "Confidentiality_ID": "41ba3d58-9b40-4ac3-87b3-bddc39a5d9fa",
+            "Integrity_ID": "45f8b0c9-f2f2-4782-80cf-acc917cb4373",
+            "Availability_ID": "290799c9-115b-4f6c-8951-9aa22d46ff05",
+            "CIAJustification": "ML model outputs support reconnaissance analysis; not strictly input but critical for threat identification."
+        },
+        {
+            "UUID": "6e76f7bb-997b-43d9-975e-4292b97788bd",
+            "Mission_ID": "81b873b0-b9a5-4069-a769-34ad321d161b",
+            "OperationalData_ID": "od-navigation",
+            "InputData": true,
+            "Confidentiality_ID": "680cfd3a-ac60-4cec-9184-8f376c4d3a51",
+            "Integrity_ID": "1015c92b-ac2e-4691-a0f5-c283f461a30f",
+            "Availability_ID": "16496f53-49b7-42b3-8cbe-a233d055f12d",
+            "CIAJustification": "Accurate navigation data is essential for safe reconnaissance flight planning."
+        },
+        {
+            "UUID": "4546932b-625d-4901-9e44-b6ec5ad01975",
+            "Mission_ID": "1689e301-2429-4842-b3a7-7da810408d01",
+            "OperationalData_ID": "c21b58ce-e37d-4d47-a06c-2246adcac9f1",
+            "InputData": false,
+            "Confidentiality_ID": "41ba3d58-9b40-4ac3-87b3-bddc39a5d9fa",
+            "Integrity_ID": "1015c92b-ac2e-4691-a0f5-c283f461a30f",
+            "Availability_ID": "ca6903e5-1684-4064-b356-5412e0bba9b1",
+            "CIAJustification": "Firewall logs help identify potential malicious activities. Integrity is key, real-time availability less critical."
+        },
+        {
+            "UUID": "15c7fd6c-f51d-4ea8-8725-c5838d3318e7",
+            "Mission_ID": "1689e301-2429-4842-b3a7-7da810408d01",
+            "OperationalData_ID": "026ad6eb-0dfa-415c-9fa8-b703617bb9c8",
+            "InputData": true,
+            "Confidentiality_ID": "fb54433f-9dbb-4564-8359-cd31cc732eb3",
+            "Integrity_ID": "1015c92b-ac2e-4691-a0f5-c283f461a30f",
+            "Availability_ID": "16496f53-49b7-42b3-8cbe-a233d055f12d",
+            "CIAJustification": "Database records of threat intel require high CIA across the board for safe, effective neutralization."
+        },
+        {
+            "UUID": "1bbe27d9-b823-48a5-9405-5841ff5825c3",
+            "Mission_ID": "01c2971d-5363-490c-9a91-4fd45308b913",
+            "OperationalData_ID": "5165d481-64e1-4f28-914b-96f25ddf15df",
+            "InputData": false,
+            "Confidentiality_ID": "680cfd3a-ac60-4cec-9184-8f376c4d3a51",
+            "Integrity_ID": "45f8b0c9-f2f2-4782-80cf-acc917cb4373",
+            "Availability_ID": "16496f53-49b7-42b3-8cbe-a233d055f12d",
+            "CIAJustification": "Web server logs can reveal communication anomalies; high availability for quick troubleshooting."
+        },
+        {
+            "UUID": "c629541e-bbd4-46bc-816d-68c6536b3750",
+            "Mission_ID": "01c2971d-5363-490c-9a91-4fd45308b913",
+            "OperationalData_ID": "cfa7af7f-430a-42d2-b1be-79290c6ba55b",
+            "InputData": false,
+            "Confidentiality_ID": "41ba3d58-9b40-4ac3-87b3-bddc39a5d9fa",
+            "Integrity_ID": "45f8b0c9-f2f2-4782-80cf-acc917cb4373",
+            "Availability_ID": "05e06c12-304c-42e9-b0fc-aa88f5391d23",
+            "CIAJustification": "VM images ensure fallback or re-deployment of comm systems. Very high availability needed if system fails."
+        },
+        {
+            "UUID": "0cc0cdeb-15f9-4568-9e2c-c6e101c3d30f",
+            "Mission_ID": "323bfd08-371d-4a35-a4c8-38bad687d085",
+            "OperationalData_ID": "8bda9863-beb4-421b-a6dd-b1dffbf9a9f2",
+            "InputData": true,
+            "Confidentiality_ID": "680cfd3a-ac60-4cec-9184-8f376c4d3a51",
+            "Integrity_ID": "45f8b0c9-f2f2-4782-80cf-acc917cb4373",
+            "Availability_ID": "05e06c12-304c-42e9-b0fc-aa88f5391d23",
+            "CIAJustification": "Real-time sensor data is critical for flight path adjustments; must be continuously available."
+        },
+        {
+            "UUID": "a99d5ba2-9daf-4084-a3e5-88def719d39f",
+            "Mission_ID": "323bfd08-371d-4a35-a4c8-38bad687d085",
+            "OperationalData_ID": "21e69992-8c4b-4297-9afc-fb499f49047a",
+            "InputData": false,
+            "Confidentiality_ID": "41ba3d58-9b40-4ac3-87b3-bddc39a5d9fa",
+            "Integrity_ID": "45f8b0c9-f2f2-4782-80cf-acc917cb4373",
+            "Availability_ID": "290799c9-115b-4f6c-8951-9aa22d46ff05",
+            "CIAJustification": "Backup images for flight software can be used if reinstallation is needed; moderate across CIA."
         }
     ],
     "OperationalData": [
@@ -6040,6 +6469,81 @@
             "UUID": "ca9a7d4d-0114-4a29-bfe0-0b71fffd0f21",
             "Name": "Reporting Logs",
             "Description": null
+        },
+        {
+            "UUID": "8bda9863-beb4-421b-a6dd-b1dffbf9a9f2",
+            "Name": "Raw Sensor Datasets",
+            "Description": "Original, unprocessed sensor data from external sources."
+        },
+        {
+            "UUID": "92899dbb-3476-4926-b873-477c7de8f463",
+            "Name": "Archived Analytics Results",
+            "Description": "Historical analytics results stored for reference."
+        },
+        {
+            "UUID": "f53369a9-222f-4695-844e-b1ef420326d5",
+            "Name": "System Logs",
+            "Description": "Event logs for HPC and Lab systems, used for troubleshooting."
+        },
+        {
+            "UUID": "c9e4e248-52fc-4586-8a19-edec2c7faf3b",
+            "Name": "Working Datasets",
+            "Description": "Intermediate data used by GPU-based computations."
+        },
+        {
+            "UUID": "cb0db5f8-2326-4286-9c5d-a477ee0a48f0",
+            "Name": "HPC In-Progress Data",
+            "Description": "Checkpoint and intermediate HPC data being actively processed."
+        },
+        {
+            "UUID": "292b233b-952a-408f-beb2-88988c4b53bc",
+            "Name": "GPU Node Checkpoints",
+            "Description": "Partial training checkpoints on HPC GPU node for ML tasks."
+        },
+        {
+            "UUID": "2b861474-245d-46f7-be2b-0e80471cc765",
+            "Name": "HPC Temp Results",
+            "Description": "Short-term HPC output files waiting to be archived."
+        },
+        {
+            "UUID": "20f0374a-fef4-4376-9f06-a34043fd52e0",
+            "Name": "Job Queue Metadata",
+            "Description": "Metadata about HPC cluster jobs, used by HPC Manager Node."
+        },
+        {
+            "UUID": "cfa7af7f-430a-42d2-b1be-79290c6ba55b",
+            "Name": "Virtual Machine Images",
+            "Description": "VM templates stored on the hypervisor servers."
+        },
+        {
+            "UUID": "3a3d9b4a-ba25-4cd6-ae2f-509a307e4007",
+            "Name": "Authentication Logs",
+            "Description": "Logs from directory services, domain controllers, etc."
+        },
+        {
+            "UUID": "c21b58ce-e37d-4d47-a06c-2246adcac9f1",
+            "Name": "Firewall Logs",
+            "Description": "Connection attempts, intrusion detection, etc."
+        },
+        {
+            "UUID": "21e69992-8c4b-4297-9afc-fb499f49047a",
+            "Name": "Backup Images",
+            "Description": "Backup snapshots from various servers and data sources."
+        },
+        {
+            "UUID": "57b7db3c-072f-499c-80a8-11667962d9a9",
+            "Name": "ML Model Checkpoints",
+            "Description": "Intermediary states of a machine learning model during training."
+        },
+        {
+            "UUID": "026ad6eb-0dfa-415c-9fa8-b703617bb9c8",
+            "Name": "Database Records",
+            "Description": "Relational data stored by the Database Server Software."
+        },
+        {
+            "UUID": "5165d481-64e1-4f28-914b-96f25ddf15df",
+            "Name": "Web Server Logs",
+            "Description": "HTTP access logs, error logs for the Web Server."
         }
     ],
     "SystemConnection": [
@@ -7147,6 +7651,116 @@
             "UUID": "f576f25b-2da6-4210-937c-cacd38b08b01",
             "System1_ID": "bbccd350-5d1a-4859-933a-0e2bc60bc5fe",
             "System2_ID": "c43b5b26-be8a-4a5d-a622-38bad330d42c"
+        },
+        {
+            "UUID": "2831545d-6aba-4274-8052-b14568fb9e29",
+            "Name": "HPC Manager Node to Infiniband Switch",
+            "Description": "Infiniband connection for HPC Manager Node to HPC IB Switch.",
+            "ConnectionType_ID": "a170115d-b608-4217-9e0e-0daf7c0a400f",
+            "System1_ID": "8623030f-1624-4d44-840e-637a236f9bf1",
+            "System2_ID": "d39dff27-8167-4a82-ba6c-4e6b288af3bc",
+            "Interface1_ID": "14b1506c-e07d-448f-a781-5e75a7164a18",
+            "Interface2_ID": "f5452cee-0606-465a-a92a-8b0b0d67256a"
+        },
+        {
+            "UUID": "449f8e2b-0b8c-42e1-9138-979226c162ea",
+            "Name": "HPC Compute Node #1 to Infiniband Switch",
+            "Description": "Infiniband connection for HPC Compute Node #1.",
+            "ConnectionType_ID": "a170115d-b608-4217-9e0e-0daf7c0a400f",
+            "System1_ID": "527df8fc-ff99-4f0e-bb94-a3e156d0a360",
+            "System2_ID": "d39dff27-8167-4a82-ba6c-4e6b288af3bc",
+            "Interface1_ID": "b60945dd-591e-4130-9dc9-8b378bfe1f89",
+            "Interface2_ID": "23bd07cf-2543-4f6f-ae4e-7e85dec22349"
+        },
+        {
+            "UUID": "fe6158f7-58d8-4a77-886f-924fb325ec71",
+            "Name": "HPC to Data Storage Node (LAN)",
+            "Description": "10Gb LAN connection from HPC cluster to data storage node.",
+            "ConnectionType_ID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
+            "System1_ID": "0f5aba03-9944-447f-8cba-8ea98d4f481c",
+            "System2_ID": "9406f2e1-ab43-4b04-8bd2-fffe06cc06bd",
+            "Interface1_ID": null,
+            "Interface2_ID": "ccab61e3-dfdf-4bd5-b89b-06240558f7a1"
+        },
+        {
+            "UUID": "ed3fa088-deb9-4c26-93ad-0269bf234317",
+            "Name": "HPC to Data Storage Node (Fiber Channel)",
+            "Description": "Fiber Channel connection for HPC cluster direct block-level storage.",
+            "ConnectionType_ID": "0483a8c1-d98a-40bc-80c5-fe8dda408d2e",
+            "System1_ID": "0f5aba03-9944-447f-8cba-8ea98d4f481c",
+            "System2_ID": "9406f2e1-ab43-4b04-8bd2-fffe06cc06bd",
+            "Interface1_ID": null,
+            "Interface2_ID": "f0722692-d34c-4d78-aef3-7c14b10fe0cd"
+        },
+        {
+            "UUID": "b0152973-43a9-4181-8ea6-e8188a9f2b2c",
+            "Name": "GPU Workstation to Data Storage Node",
+            "Description": "Ethernet link for data read/write between workstation and DSN.",
+            "ConnectionType_ID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
+            "System1_ID": "bb7b0ef9-b853-4627-9b72-3eb88a287828",
+            "System2_ID": "9406f2e1-ab43-4b04-8bd2-fffe06cc06bd",
+            "Interface1_ID": "ea03a65c-98f9-48ac-b068-cfa907008fb3",
+            "Interface2_ID": "ccab61e3-dfdf-4bd5-b89b-06240558f7a1"
+        },
+        {
+            "UUID": "6600bdfc-0a33-4282-a038-0aed994b98f6",
+            "Name": "Visualization Workstation to Core Switch",
+            "Description": "Connection for the visualization workstation to the main network.",
+            "ConnectionType_ID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
+            "System1_ID": "06cbe73a-4158-49fd-96d3-d8e0f794f8fe",
+            "System2_ID": "fbfd2f14-6e42-4f86-ae70-6b8a140443ee",
+            "Interface1_ID": "08da81b6-ed5e-4233-8059-7824a12dd6d8",
+            "Interface2_ID": "2095ecc2-1157-42e8-bbe6-02bf41aee525"
+        },
+        {
+            "UUID": "77154bd5-94da-4268-a7d0-07864b30e28c",
+            "Name": "Core Switch to Firewall",
+            "Description": "Connection carrying LAN traffic to the firewall.",
+            "ConnectionType_ID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
+            "System1_ID": "fbfd2f14-6e42-4f86-ae70-6b8a140443ee",
+            "System2_ID": "f88819e0-4287-4fea-915a-08373dfa8ae7",
+            "Interface1_ID": "a8c5732e-2dbe-4151-863d-8ce777864af4",
+            "Interface2_ID": "2f27c23a-3038-404b-b835-cdd61d9bade9"
+        },
+        {
+            "UUID": "542903ec-c288-4600-9193-ccaa8dea7114",
+            "Name": "Firewall to Outside Network",
+            "Description": "Connection from firewall to external WAN/Internet.",
+            "ConnectionType_ID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
+            "System1_ID": "f88819e0-4287-4fea-915a-08373dfa8ae7",
+            "System2_ID": null,
+            "Interface1_ID": "e0e56161-18b0-499f-8b54-202d7de59f79",
+            "Interface2_ID": null
+        },
+        {
+            "UUID": "120b9fef-8771-4ed1-82a8-513e5ac1ddba",
+            "Name": "VM Host1 to Core Switch",
+            "Description": "LAN connection for hypervisor host 1 to the core switch.",
+            "ConnectionType_ID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
+            "System1_ID": "c77ed1c3-6d40-44d9-ad9b-437b52e0fffb",
+            "System2_ID": "fbfd2f14-6e42-4f86-ae70-6b8a140443ee",
+            "Interface1_ID": "f155c48f-f514-426d-8267-2796be4ead2b",
+            "Interface2_ID": "da49c4a3-6c79-4b5e-9c0a-24bb72ac5061"
+        },
+        {
+            "UUID": "72a78c46-c49c-4592-9663-9f3f75c462be",
+            "Name": "VM Host2 to Core Switch",
+            "Description": "LAN connection for hypervisor host 2 to the core switch.",
+            "ConnectionType_ID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
+            "System1_ID": "b4bb294c-ca92-4653-a0e3-1aed243e1df9",
+            "System2_ID": "fbfd2f14-6e42-4f86-ae70-6b8a140443ee",
+            "Interface1_ID": "e50952c6-038d-456d-afec-6a2a484afa00",
+            "Interface2_ID": null
+        },
+        {
+            "UUID": "19beff69-415b-4556-8ebd-d8519088ff14",
+            "Name": "Backup Server to Core Switch",
+            "Description": "Link for backup server to connect to internal LAN for data backups.",
+            "ConnectionType_ID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
+            "System1_ID": "32981f3c-2db6-48b8-8407-d26e099d8efd",
+            "System2_ID": "fbfd2f14-6e42-4f86-ae70-6b8a140443ee",
+            "Interface1_ID": "eb1ccf25-79c3-4e3c-8e17-32792113ef7d",
+            "Interface2_ID": null
         }
     ],
     "SystemConnectionData": [
@@ -8404,6 +9018,293 @@
             ],
             "SourceSystem_ID": "c43b5b26-be8a-4a5d-a622-38bad330d42c",
             "TargetSystem_ID": "bbccd350-5d1a-4859-933a-0e2bc60bc5fe"
+        },
+        {
+            "UUID": "458abcf4-9f35-4db2-b0ea-6bd41c86ae72",
+            "SystemConnection_ID": "fe6158f7-58d8-4a77-886f-924fb325ec71",
+            "OperationalData_ID": [
+                "2b861474-245d-46f7-be2b-0e80471cc765",
+                "292b233b-952a-408f-beb2-88988c4b53bc"
+            ],
+            "SourceSystem_ID": "0f5aba03-9944-447f-8cba-8ea98d4f481c",
+            "TargetSystem_ID": "9406f2e1-ab43-4b04-8bd2-fffe06cc06bd"
+        },
+        {
+            "UUID": "a93631e5-3f25-42b2-9487-236fa3b8e156",
+            "SystemConnection_ID": "fe6158f7-58d8-4a77-886f-924fb325ec71",
+            "OperationalData_ID": [
+                "8bda9863-beb4-421b-a6dd-b1dffbf9a9f2"
+            ],
+            "SourceSystem_ID": "9406f2e1-ab43-4b04-8bd2-fffe06cc06bd",
+            "TargetSystem_ID": "0f5aba03-9944-447f-8cba-8ea98d4f481c"
+        },
+        {
+            "UUID": "3d531fed-eae2-48cf-a1a8-5c6facedcf2c",
+            "SystemConnection_ID": "b0152973-43a9-4181-8ea6-e8188a9f2b2c",
+            "OperationalData_ID": [
+                "c9e4e248-52fc-4586-8a19-edec2c7faf3b"
+            ],
+            "SourceSystem_ID": "bb7b0ef9-b853-4627-9b72-3eb88a287828",
+            "TargetSystem_ID": "9406f2e1-ab43-4b04-8bd2-fffe06cc06bd"
+        },
+        {
+            "UUID": "6ce46bd5-c63b-4758-b587-ba3cba557483",
+            "SystemConnection_ID": "2831545d-6aba-4274-8052-b14568fb9e29",
+            "OperationalData_ID": [
+                "20f0374a-fef4-4376-9f06-a34043fd52e0",
+                "cb0db5f8-2326-4286-9c5d-a477ee0a48f0"
+            ],
+            "SourceSystem_ID": "8623030f-1624-4d44-840e-637a236f9bf1",
+            "TargetSystem_ID": "527df8fc-ff99-4f0e-bb94-a3e156d0a360"
+        },
+        {
+            "UUID": "18beccf6-a589-44dc-8c52-1548ba5c846c",
+            "SystemConnection_ID": "19beff69-415b-4556-8ebd-d8519088ff14",
+            "OperationalData_ID": [
+                "92899dbb-3476-4926-b873-477c7de8f463",
+                "f53369a9-222f-4695-844e-b1ef420326d5"
+            ],
+            "SourceSystem_ID": "9406f2e1-ab43-4b04-8bd2-fffe06cc06bd",
+            "TargetSystem_ID": "32981f3c-2db6-48b8-8407-d26e099d8efd"
+        },
+        {
+            "UUID": "3b66a80e-8b55-4c5a-ab6d-799e3e806f39",
+            "SystemConnection_ID": "6600bdfc-0a33-4282-a038-0aed994b98f6",
+            "OperationalData_ID": [
+                "2b861474-245d-46f7-be2b-0e80471cc765"
+            ],
+            "SourceSystem_ID": "0f5aba03-9944-447f-8cba-8ea98d4f481c",
+            "TargetSystem_ID": "06cbe73a-4158-49fd-96d3-d8e0f794f8fe"
+        },
+        {
+            "UUID": "4d31ae39-3ea2-467e-ad11-338bfd840aa5",
+            "SystemConnection_ID": "19beff69-415b-4556-8ebd-d8519088ff14",
+            "OperationalData_ID": [
+                "cfa7af7f-430a-42d2-b1be-79290c6ba55b"
+            ],
+            "SourceSystem_ID": "c77ed1c3-6d40-44d9-ad9b-437b52e0fffb",
+            "TargetSystem_ID": "32981f3c-2db6-48b8-8407-d26e099d8efd"
+        },
+        {
+            "UUID": "aed8486e-d1d5-4a6b-a3a4-31c51e99bfb2",
+            "SystemConnection_ID": "19beff69-415b-4556-8ebd-d8519088ff14",
+            "OperationalData_ID": [
+                "026ad6eb-0dfa-415c-9fa8-b703617bb9c8"
+            ],
+            "SourceSystem_ID": "b3f28f2d-0ddd-43cf-8414-47200c29f09c",
+            "TargetSystem_ID": "32981f3c-2db6-48b8-8407-d26e099d8efd"
+        },
+        {
+            "UUID": "e7f8ac8e-4901-485e-a009-b5c21e5ed980",
+            "SystemConnection_ID": "77154bd5-94da-4268-a7d0-07864b30e28c",
+            "OperationalData_ID": [
+                "5165d481-64e1-4f28-914b-96f25ddf15df"
+            ],
+            "SourceSystem_ID": "b60f9839-c244-4f55-8a2b-ba54d6a4c139",
+            "TargetSystem_ID": "f88819e0-4287-4fea-915a-08373dfa8ae7"
+        },
+        {
+            "UUID": "0f1df6be-8762-4859-a990-f6c7434ad256",
+            "SystemConnection_ID": "b0152973-43a9-4181-8ea6-e8188a9f2b2c",
+            "OperationalData_ID": [
+                "57b7db3c-072f-499c-80a8-11667962d9a9"
+            ],
+            "SourceSystem_ID": "281af390-1cb0-4307-95e9-716efad807b2",
+            "TargetSystem_ID": "9406f2e1-ab43-4b04-8bd2-fffe06cc06bd"
+        }
+    ],
+    "ConnectionType": [
+        {
+            "UUID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
+            "Name": "LAN",
+            "Wireless": false
+        },
+        {
+            "UUID": "596bbcbf-3e42-42bd-a4f2-47b046df07cc",
+            "Name": "Wi-Fi",
+            "Wireless": true
+        },
+        {
+            "UUID": "0483a8c1-d98a-40bc-80c5-fe8dda408d2e",
+            "Name": "Fiber Channel",
+            "Wireless": false
+        },
+        {
+            "UUID": "a170115d-b608-4217-9e0e-0daf7c0a400f",
+            "Name": "Infiniband",
+            "Wireless": false
+        },
+        {
+            "UUID": "3cddada0-d48c-447e-aefb-927503f91988",
+            "Name": "RS-232",
+            "Wireless": false
+        }
+    ],
+    "InterfaceType": [
+        {
+            "UUID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "Ethernet Port",
+            "Wireless": false
+        },
+        {
+            "UUID": "b13d08fb-b270-45c1-a14b-26dae8380326",
+            "Name": "Wireless LAN Adapter",
+            "Wireless": true
+        },
+        {
+            "UUID": "fa9fdc06-593f-4736-880b-59f858a41678",
+            "Name": "Fiber Channel Port",
+            "Wireless": false
+        },
+        {
+            "UUID": "5a5f8b79-1a66-4d35-b0ca-f9460cfe4939",
+            "Name": "Infiniband Port",
+            "Wireless": false
+        },
+        {
+            "UUID": "5736b84b-288b-460e-9abc-1c3ebad13134",
+            "Name": "USB Port",
+            "Wireless": false
+        }
+    ],
+    "Interface": [
+        {
+            "UUID": "188cd3b7-5bad-426e-b791-4edd140573c4",
+            "System_ID": "8623030f-1624-4d44-840e-637a236f9bf1",
+            "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "HPC Manager Node - LAN Port"
+        },
+        {
+            "UUID": "14b1506c-e07d-448f-a781-5e75a7164a18",
+            "System_ID": "8623030f-1624-4d44-840e-637a236f9bf1",
+            "InterfaceType_ID": "5a5f8b79-1a66-4d35-b0ca-f9460cfe4939",
+            "Name": "HPC Manager Node - Infiniband Port"
+        },
+        {
+            "UUID": "0120ffb2-8489-411e-8d2e-951ef735d5fe",
+            "System_ID": "527df8fc-ff99-4f0e-bb94-a3e156d0a360",
+            "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "Compute Node #1 - LAN Port"
+        },
+        {
+            "UUID": "b60945dd-591e-4130-9dc9-8b378bfe1f89",
+            "System_ID": "527df8fc-ff99-4f0e-bb94-a3e156d0a360",
+            "InterfaceType_ID": "5a5f8b79-1a66-4d35-b0ca-f9460cfe4939",
+            "Name": "Compute Node #1 - Infiniband Port"
+        },
+        {
+            "UUID": "effa1d32-b5ed-48e7-85c5-8a5c9324defd",
+            "System_ID": "1f9d6830-d931-419c-9be5-ecaf6aa3746f",
+            "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "Compute Node #2 - LAN Port"
+        },
+        {
+            "UUID": "e2fb9b2d-9105-418a-94c2-b099459bf7a9",
+            "System_ID": "1f9d6830-d931-419c-9be5-ecaf6aa3746f",
+            "InterfaceType_ID": "5a5f8b79-1a66-4d35-b0ca-f9460cfe4939",
+            "Name": "Compute Node #2 - Infiniband Port"
+        },
+        {
+            "UUID": "8c7828cd-27f0-4ccb-a825-5ef045756694",
+            "System_ID": "e89b1b72-6ee6-42bc-a1df-49e64e55453c",
+            "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "GPU Node - LAN Port"
+        },
+        {
+            "UUID": "4720f3d8-4bf4-49e3-9760-53f48a0fd3de",
+            "System_ID": "e89b1b72-6ee6-42bc-a1df-49e64e55453c",
+            "InterfaceType_ID": "5a5f8b79-1a66-4d35-b0ca-f9460cfe4939",
+            "Name": "GPU Node - Infiniband Port"
+        },
+        {
+            "UUID": "f5452cee-0606-465a-a92a-8b0b0d67256a",
+            "System_ID": "d39dff27-8167-4a82-ba6c-4e6b288af3bc",
+            "InterfaceType_ID": "5a5f8b79-1a66-4d35-b0ca-f9460cfe4939",
+            "Name": "IB Switch Port #1"
+        },
+        {
+            "UUID": "23bd07cf-2543-4f6f-ae4e-7e85dec22349",
+            "System_ID": "d39dff27-8167-4a82-ba6c-4e6b288af3bc",
+            "InterfaceType_ID": "5a5f8b79-1a66-4d35-b0ca-f9460cfe4939",
+            "Name": "IB Switch Port #2"
+        },
+        {
+            "UUID": "ea03a65c-98f9-48ac-b068-cfa907008fb3",
+            "System_ID": "bb7b0ef9-b853-4627-9b72-3eb88a287828",
+            "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "GPU Workstation LAN Port"
+        },
+        {
+            "UUID": "08da81b6-ed5e-4233-8059-7824a12dd6d8",
+            "System_ID": "06cbe73a-4158-49fd-96d3-d8e0f794f8fe",
+            "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "Visualization Workstation LAN Port"
+        },
+        {
+            "UUID": "ccab61e3-dfdf-4bd5-b89b-06240558f7a1",
+            "System_ID": "9406f2e1-ab43-4b04-8bd2-fffe06cc06bd",
+            "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "Data Storage Node LAN1"
+        },
+        {
+            "UUID": "f0722692-d34c-4d78-aef3-7c14b10fe0cd",
+            "System_ID": "9406f2e1-ab43-4b04-8bd2-fffe06cc06bd",
+            "InterfaceType_ID": "fa9fdc06-593f-4736-880b-59f858a41678",
+            "Name": "Data Storage Node Fiber Channel Port"
+        },
+        {
+            "UUID": "f155c48f-f514-426d-8267-2796be4ead2b",
+            "System_ID": "c77ed1c3-6d40-44d9-ad9b-437b52e0fffb",
+            "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "VM Host1 LAN Port"
+        },
+        {
+            "UUID": "e50952c6-038d-456d-afec-6a2a484afa00",
+            "System_ID": "b4bb294c-ca92-4653-a0e3-1aed243e1df9",
+            "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "VM Host2 LAN Port"
+        },
+        {
+            "UUID": "f5b57610-071d-47fd-bf51-f1456e8a376b",
+            "System_ID": "e4851581-c399-4fd4-af40-bfc960c0eac1",
+            "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "Domain Controller LAN Port"
+        },
+        {
+            "UUID": "2095ecc2-1157-42e8-bbe6-02bf41aee525",
+            "System_ID": "fbfd2f14-6e42-4f86-ae70-6b8a140443ee",
+            "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "Core Switch Port #1"
+        },
+        {
+            "UUID": "a8c5732e-2dbe-4151-863d-8ce777864af4",
+            "System_ID": "fbfd2f14-6e42-4f86-ae70-6b8a140443ee",
+            "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "Core Switch Port #2"
+        },
+        {
+            "UUID": "da49c4a3-6c79-4b5e-9c0a-24bb72ac5061",
+            "System_ID": "fbfd2f14-6e42-4f86-ae70-6b8a140443ee",
+            "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "Core Switch Port #3"
+        },
+        {
+            "UUID": "2f27c23a-3038-404b-b835-cdd61d9bade9",
+            "System_ID": "f88819e0-4287-4fea-915a-08373dfa8ae7",
+            "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "Firewall - Inside LAN Interface"
+        },
+        {
+            "UUID": "e0e56161-18b0-499f-8b54-202d7de59f79",
+            "System_ID": "f88819e0-4287-4fea-915a-08373dfa8ae7",
+            "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "Firewall - Outside LAN Interface"
+        },
+        {
+            "UUID": "eb1ccf25-79c3-4e3c-8e17-32792113ef7d",
+            "System_ID": "32981f3c-2db6-48b8-8407-d26e099d8efd",
+            "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
+            "Name": "Backup Server LAN Port"
         }
     ]
 }
