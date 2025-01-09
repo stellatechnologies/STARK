@@ -6,7 +6,7 @@
             "Name": "STARK Platform",
             "Description": "An advanced UAV system designed for autonomous missions involving reconnaissance, extraction, and threat neutralization.",
             "UUID": "f97d9850-994f-4ab8-8f0c-ed1dddc880b9",
-            "Acronym": null, 
+            "Acronym": null,
             "Software": false
         },
         {
@@ -764,15 +764,6 @@
             "UUID": "6c465061-7cd5-4818-b943-084cdd0e64eb",
             "Acronym": null,
             "Software": true
-        },
-        {
-            "Parent_ID": "9565a7dd-c147-436f-9f17-aa0e859c0cbc",
-            "AuthorizationBoundary_ID": null,
-            "Name": "Physical Security",
-            "Description": "Systems and personnel that protect the facility from physical threats.",
-            "UUID": "52046aa1-4a0a-4c50-80b5-26cdfb826583",
-            "Acronym": null,
-            "Software": false
         },
         {
             "Parent_ID": "9565a7dd-c147-436f-9f17-aa0e859c0cbc",
@@ -1908,8 +1899,6 @@
             "Name": "Sensor Preparation",
             "Description": "Prepare all necessary sensors for accurate gemstone detection missions. Ensures sensors are operational and calibrated before missions.",
             "Children": [
-                "4cfe2236-22fd-4d3c-a91c-46ca64fc9581",
-                "214830ac-1626-4cd1-ae56-ccb8f78b8135",
                 "f80731ab-6a01-4df1-8f31-0662ffc30533"
             ]
         },
@@ -1917,203 +1906,127 @@
             "UUID": "cbc61a61-2479-4996-9d28-c239afec2f58",
             "Name": "Data Acquisition",
             "Description": "Execute flight operations to collect sensor data for gemstone detection. Involves planning and controlling the flight path and sensor operations.",
-            "Children": [
-                "3798c455-1e54-4a7e-9779-4c91c5e76544",
-                "83947531-365b-43c2-a931-c8995ec9346f",
-                "0db139d6-15ac-4857-a973-9bc1dbbd9993",
-                "8ab12eb5-d17c-466a-8481-b40b7785dad3"
-            ]
+            "Children": []
         },
         {
             "UUID": "4f0e2e88-07cd-4918-8344-26d85a15731a",
             "Name": "Data Processing and Analysis",
             "Description": "Process and analyze collected data to identify gemstone locations and assess environmental factors. Includes:",
-            "Children": [
-                "ddf3a302-3e47-489b-ac13-288881b372dc",
-                "c6c0f048-6a0d-4f68-8cba-95f05b8f7ac4",
-                "301ccf1e-a0e4-4090-b63c-80fe3d4ed1d8"
-            ]
+            "Children": []
         },
         {
             "UUID": "6aa5d9bc-3e92-456c-a9ee-51bda4d501be",
             "Name": "Localization of Gemstone Deposits",
             "Description": "Determine the precise locations of identified gemstone deposits for extraction missions. Includes:",
-            "Children": [
-                "b25bc18f-98eb-4591-92e1-553f801c0643",
-                "708fd48e-666f-47d3-bf20-b799a160bae6"
-            ]
+            "Children": []
         },
         {
             "UUID": "252f11ab-c45f-44ea-8305-fb5b7f0b00c2",
             "Name": "Positioning Over Extraction Site",
             "Description": "Align the quadcopter precisely above the gemstone extraction site to ensure accurate and stable extraction. Includes: GPS Coordination and Stabilization Systems.",
-            "Children": [
-                "4fc65b8d-52b1-4e71-bcf7-ca4843264e91",
-                "baf671de-3d21-46c2-bfb8-15d27f98fd04"
-            ]
+            "Children": []
         },
         {
             "UUID": "a035d370-089c-44b8-a12a-198aba7997e9",
             "Name": "Manipulator Deployment",
             "Description": "Deploy and configure robotic manipulators for gemstone extraction tasks. Includes: Arm Extension, Tool Selection and Attachment, and Precision Alignment.",
-            "Children": [
-                "e5053218-e3cf-4716-bf09-133d6e21d9fb",
-                "d296d2bf-17a9-4ea5-a5c8-605435abe43c",
-                "a1b20e58-e811-45ed-b34a-440000705c5e"
-            ]
+            "Children": []
         },
         {
             "UUID": "78d5bc10-ceb7-4f28-8e03-6b62e80c67b5",
             "Name": "Extraction Operations",
             "Description": "Execute the physical extraction of gemstones using selected tools and techniques. Includes: Drilling Operations, Cutting Operations, Grasping Operations, and Vibration Compensation.",
-            "Children": [
-                "823d8064-6926-4c6e-bf73-c431248287b2",
-                "498c634e-16b8-4a9e-8d94-2c621993aeef",
-                "c85b059b-cea1-417f-840c-b0d71eb52104",
-                "b02578c7-68af-4918-8de4-fa0e34f980b1"
-            ]
+            "Children": []
         },
         {
             "UUID": "a3001b3f-651f-4264-9308-42675a4bc3b2",
             "Name": "Sample Handling and Securing",
             "Description": "Manage the transfer and secure storage of extracted gemstone samples to prevent loss or damage. Includes: Transfer to Storage and Environmental Protection.",
-            "Children": [
-                "ef636985-c073-4c98-84c1-da5fe89e735e",
-                "97bd8c06-93b8-43c7-8473-d953ac73ef4e",
-                "aea45b49-ea4d-40f6-aec8-4259c162ca21"
-            ]
+            "Children": []
         },
         {
             "UUID": "790ab1a8-68b0-406e-8456-6fdfd6db5f1f",
             "Name": "Storage Monitoring",
             "Description": "Continuously monitor storage conditions and security to maintain sample integrity and prevent unauthorized access. Includes: Environmental Monitoring and Security Monitoring.",
-            "Children": [
-                "2744d0ae-ce4b-479b-a766-96e35d271bbf",
-                "1323d95c-d4d0-495c-82d9-9c1eaee1e5d7"
-            ]
+            "Children": []
         },
         {
             "UUID": "6f91db04-8eab-4464-ad03-099a0697a98e",
             "Name": "Inventory Management",
             "Description": "Maintain an accurate inventory of all stored gemstone samples for efficient retrieval and accountability. Includes: Cataloging Samples and Storage Optimization.",
-            "Children": [
-                "50a0af7f-1ebd-4449-b908-de95ea7112f4",
-                "7337ea7d-a22c-4e18-acdf-37b951b475a0"
-            ]
+            "Children": []
         },
         {
             "UUID": "877ef77c-0cf6-4523-9483-c1eeda9757d4",
             "Name": "Sample Retrieval Preparation",
             "Description": "Prepare stored samples for extraction missions by ensuring they are accessible and securely handled. Includes: Access Protocols and Compartment Access.",
-            "Children": [
-                "ffbc8a56-4dfd-4fef-9e11-5453a77cfe2c",
-                "d06cfcaf-3f99-415f-b44d-8f3a09d667a5"
-            ]
+            "Children": []
         },
         {
             "UUID": "feeee27a-b858-4a5f-9189-4832800063de",
             "Name": "Sensor Deployment",
             "Description": "Deploy and activate sensors necessary for terrain mapping operations. Includes: Activation of Imaging Sensors and Activation of LIDAR Systems.",
-            "Children": [
-                "6f5fab92-656e-47bc-9054-7ae83b505036",
-                "3774ca92-197d-4891-8ec5-dda6fe8d2da5"
-            ]
+            "Children": []
         },
         {
             "UUID": "d1a85c29-23d2-40d7-b344-e2674ea997f8",
             "Name": "Flight Path Execution",
             "Description": "Execute the planned flight trajectory to ensure comprehensive coverage of the terrain for mapping purposes. Includes: Predefined Routes and Adaptive Routing.",
-            "Children": [
-                "67cbebda-73d0-4f2b-b8c0-386362c9fed1",
-                "bfa6fcda-3d84-4cf9-8dc0-7c9c8175fbd3"
-            ]
+            "Children": []
         },
         {
             "UUID": "deb75f2c-e0d7-4fe8-86de-2ddea6a979a8",
             "Name": "Data Collection",
             "Description": "Gather sensor data during flight operations for subsequent processing and analysis. Includes: Imaging Data Acquisition and LIDAR Data Acquisition.",
-            "Children": [
-                "ecf8eddc-a8e6-42e1-93d2-5e02ffcbd8eb",
-                "e17d5fef-ea71-4d0b-82ce-cd14f0341180"
-            ]
+            "Children": []
         },
         {
             "UUID": "b5f74802-1d74-4710-84b0-e168472a4208",
             "Name": "Data Processing",
             "Description": "Process and analyze collected sensor data to generate accurate and usable terrain maps. Includes: Image Processing, LIDAR Data Processing, and Data Fusion.",
-            "Children": [
-                "d85920ab-3339-4606-9744-6694604996a1",
-                "31bacca8-07fb-4e12-b443-bce322547621",
-                "adfb0203-6077-485e-b423-be4ecdefad30"
-            ]
+            "Children": []
         },
         {
             "UUID": "1924f259-1d6a-4083-920e-40a47f9018b4",
             "Name": "Map Generation and Analysis",
             "Description": "Develop detailed maps from processed data and perform analysis to identify key terrain features and resources. Includes: Topographical Mapping, Geological Analysis, and Resource Mapping.",
-            "Children": [
-                "a88a6c18-a57d-492b-bf44-37e43409f982",
-                "d6b826b6-7d3d-4d4d-9a67-9c57e4d64c21",
-                "f84edcde-741d-4ec5-aaca-35e2d9820ac9"
-            ]
+            "Children": []
         },
         {
             "UUID": "0e497050-9eb5-488a-a81b-73b84a72ed55",
             "Name": "Atmospheric Analysis",
             "Description": "Study the planet's atmospheric conditions to understand its composition, weather patterns, and potential hazards. Includes: Atmospheric Sampling, Gas Composition Analysis, and Weather Pattern Monitoring.",
-            "Children": [
-                "45c411b2-4acb-4bfc-a1de-41a382e98a23",
-                "ae518e99-1520-4876-92a1-1c648c9823bb",
-                "4e169b3c-a91b-444a-9ee0-9c0da6b37d54"
-            ]
+            "Children": []
         },
         {
             "UUID": "aba996e5-3da0-4f99-a629-11d4748252e4",
             "Name": "Radiation Monitoring",
             "Description": "Measure and map radiation levels on the planet to ensure the safety of operations and personnel. Includes: Radiation Level Measurement and Radiation Mapping.",
-            "Children": [
-                "67153d6a-6ac6-4b70-ab4f-f2601b4ac7aa",
-                "c3fd7e9a-5923-4878-bb9b-06003a47ec5f"
-            ]
+            "Children": []
         },
         {
             "UUID": "88ff7204-181e-4390-8567-2b822adcb38a",
             "Name": "Soil and Surface Analysis",
             "Description": "Examine the planet's soil and surface materials to assess composition, fertility, and potential for resource extraction. Includes: Sample Collection, Chemical Analysis, and Biological Analysis.",
-            "Children": [
-                "5833058e-2e87-47d7-8e41-5704685ac108",
-                "ac23ec94-b10a-4e12-ace1-3a7d5c41917f",
-                "352c12cf-94e3-473f-9b7b-44ebf2b5ada8"
-            ]
+            "Children": []
         },
         {
             "UUID": "db357c30-e8a6-41e7-9240-d9013fdd6368",
             "Name": "Detection Systems Activation",
             "Description": "Activate and manage systems designed to detect alien presence and activities. Includes: Motion Sensors, Thermal Sensors, and Acoustic Sensors.",
-            "Children": [
-                "fa0ded98-9935-4ccc-8de5-c24086966773",
-                "4eeaa1fe-9d67-437a-9f39-834ad29ef489",
-                "d3ed52e2-c902-4616-8a7f-76db2d5b814e"
-            ]
+            "Children": []
         },
         {
             "UUID": "421e7316-315d-41cd-a53d-7a52498eef57",
             "Name": "Surveillance Operations",
             "Description": "Conduct ongoing monitoring and patrols to observe alien activities and gather intelligence. Includes: Area Monitoring and Patrol Routes.",
-            "Children": [
-                "c9c62f95-6988-4bc4-8769-68962b0f805e",
-                "26c5df94-6f00-41ee-aabc-01ffb987cc1c"
-            ]
+            "Children": []
         },
         {
             "UUID": "b24319a2-e361-459f-9b53-c2b96eec6475",
             "Name": "Reporting and Alerting",
             "Description": "Generate reports and alerts based on analyzed data to inform mission control and trigger appropriate responses. Includes: Data Logging, Alert Generation, and Communication Relay.",
-            "Children": [
-                "37719781-fc53-454a-b183-5de6a3ea686b",
-                "858e1631-f05e-4388-b961-0b1264092f37",
-                "2307483d-8b62-4caa-ad53-685d9f67da53"
-            ]
+            "Children": []
         },
         {
             "UUID": "f80731ab-6a01-4df1-8f31-0662ffc30533",
@@ -2125,30 +2038,19 @@
             "UUID": "a3ab6c03-edc7-4e1b-911c-aedd3432125c",
             "Name": "Surveillance",
             "Description": "Continuously monitor designated areas to detect and track potential alien threats. Includes: Continuous Monitoring and Target Tracking.",
-            "Children": [
-                "16e9709f-5abb-455b-b419-904af02799bc",
-                "09ede06b-914b-4291-b825-6192671d46e3"
-            ]
+            "Children": []
         },
         {
             "UUID": "04f8d502-a7a1-45c2-a5f2-e5def8e3edd3",
             "Name": "Data Analysis",
             "Description": "Analyze collected sensor data to interpret threat behaviors and identify potential risks. Includes: Image Recognition Algorithms, Signal Intelligence, and Behavioral Analysis.",
-            "Children": [
-                "dd0f5476-44e4-40cf-b919-1caf9bd749ab",
-                "8808cb7e-eb75-4310-848f-4176c26b0e29",
-                "89b9d8d8-6109-4500-9a14-c33a19acda73",
-                "584a0f4f-388b-4cee-afcc-0d99c343f207",
-                "677b3239-826e-4ed7-9a4a-4e839fef9921",
-                "997dce6a-cdf0-46ca-9494-524324f71bd3"
-            ]
+            "Children": []
         },
         {
             "UUID": "66972c59-be3b-455a-9d69-d38d3021e45c",
             "Name": "Threat Classification",
             "Description": "Categorize detected threats based on assessed risks and prioritize them for engagement. Includes: Risk Assessment and Prioritization.",
             "Children": [
-                "1e48d0a2-57a5-4745-b3d9-87768a8b1b47",
                 "5bfea9a5-4fbb-4d7d-a55b-06f60951dcf8"
             ]
         },
@@ -2156,17 +2058,13 @@
             "UUID": "21a615b4-868d-4b90-ae17-fd98d84452ed",
             "Name": "Tactical Analysis",
             "Description": "Assess the tactical environment and threat capabilities to inform engagement strategies. Includes: Environment Assessment and Threat Capabilities Assessment.",
-            "Children": [
-                "800f041d-a7dd-4aaf-b31a-dcdf2e45ec8d",
-                "a03297ca-20f4-4969-8ddc-0f227952a348"
-            ]
+            "Children": []
         },
         {
             "UUID": "4e5004ce-2acf-4991-ab65-4a2a753de6c4",
             "Name": "Strategy Development",
             "Description": "Formulate engagement strategies based on tactical analysis to effectively neutralize threats. Includes: Engagement Options and Resource Allocation.",
             "Children": [
-                "bba34c31-c900-4dce-8093-3391f980fd7a",
                 "3679fcfd-7cb1-4856-92c7-86dd702e6404"
             ]
         },
@@ -2174,35 +2072,25 @@
             "UUID": "bc6811ac-4b8f-42cb-831d-671ad9832106",
             "Name": "Mission Coordination",
             "Description": "Coordinate with mission control and other operational units to synchronize engagement efforts. Includes: Communication with Command and Synchronization.",
-            "Children": [
-                "e1f2a2c8-d5b4-4519-8b66-e6e8cf15294b",
-                "34738eee-cbd0-4caa-9a28-e3763f0fd6b0"
-            ]
+            "Children": []
         },
         {
             "UUID": "4e5f6ffc-8ae3-410c-941b-9f135eb48959",
             "Name": "Weapon System Preparation",
             "Description": "Ready and configure weapon systems for engagement operations to ensure they are operational and effective. Includes: Weapon Activation and Targeting System Calibration.",
-            "Children": [
-                "c1f0ebf6-fc45-462a-bb82-3cde1da29e66",
-                "ace314c7-a16e-4130-8953-70a4dcf9ed80"
-            ]
+            "Children": []
         },
         {
             "UUID": "a92c8492-ff98-4f4a-abe0-b02ba5fdb6e0",
             "Name": "Engagement Execution",
             "Description": "Carry out the engagement strategies to neutralize threats using selected weapon systems and tactics. Includes: Target Lock-On and Weapon Discharge.",
-            "Children": [
-                "45bf9c17-abc9-47fe-8fd5-ce9ee5723314",
-                "d5b40e1e-651c-4bea-b278-fde2fad9ec4d"
-            ]
+            "Children": []
         },
         {
             "UUID": "9894c25b-516a-4fd2-a0a0-45645fe29c73",
             "Name": "Post-Engagement Actions",
             "Description": "Conduct follow-up procedures after threat neutralization to assess damage and maintain system integrity. Includes: Damage Assessment, System Diagnostics, and Reporting.",
             "Children": [
-                "dd54c360-988c-4a7c-8a3c-bcdb27e34dc8",
                 "c269e71d-0dcb-4c46-bfd7-7d992f0b5a0b",
                 "50bfcc6c-218b-4e1a-86df-1e4659533079"
             ]
@@ -2259,10 +2147,7 @@
             "UUID": "a98b59aa-cd8c-4f22-b826-edf661754b07",
             "Name": "Obstacle Avoidance",
             "Description": "Detect and navigate around obstacles to maintain safe and efficient flight paths. Shared with Obstacle Avoidance under Data Acquisition in Gemstone Detection.",
-            "Children": [
-                "6911e339-ab3f-4a35-9100-e3c6b28cd044",
-                "d69f1d96-1afa-4535-bc11-ea32c6f82268"
-            ]
+            "Children": []
         },
         {
             "UUID": "ab680915-ad5e-4205-936a-aff6c7a0c2da",
@@ -2286,22 +2171,13 @@
             "UUID": "6efdb71e-7edf-449d-81e9-08fcec9958cd",
             "Name": "Comprehensive Hardware Checks",
             "Description": "Perform thorough inspections and tests on all hardware components to identify and address potential issues. Includes: Motor and Rotor Inspection, Battery and Power Systems Test, Sensor Functionality Test, Weapon Systems Check.",
-            "Children": [
-                "f8f438d3-92c0-4b4c-b53e-ed73036caf00",
-                "89b15807-8efa-4075-9fcf-cfba28fe09e1",
-                "6b499623-30bb-442a-8f81-104ea3f16fd2",
-                "e7c44205-0de6-4bf5-babb-02780b0cad10"
-            ]
+            "Children": []
         },
         {
             "UUID": "521a3d8d-ef62-4442-ae50-49dcefcb50b4",
             "Name": "Software Systems Verification",
             "Description": "Validate the integrity and performance of all software systems to ensure they are up-to-date and functioning correctly. Includes: Operating System Health Check, Application Software Update, Security Protocols Update.",
-            "Children": [
-                "b701a22f-dd7c-4a61-a3e1-cc024b6c5327",
-                "a9886e4f-b744-4f2e-a047-ae060a5fd72f",
-                "b93f238e-8505-43d7-bed0-644696d92571"
-            ]
+            "Children": []
         },
         {
             "UUID": "1dba9ffa-b639-4056-b676-2b66dec18d93",
@@ -5220,152 +5096,142 @@
         },
         {
             "UUID": "b510e788-8ff7-4142-8af6-5a77b1856a0e",
-            "Mission_ID": "1cdce144-b4b1-46dc-9088-32e5db444562",
+            "Mission_ID": "5eedebfd-55ef-4b15-8207-c98eae8fc438",
             "OperationalData_ID": "8bda9863-beb4-421b-a6dd-b1dffbf9a9f2",
             "InputData": true,
-            "Confidentiality_ID": "680cfd3a-ac60-4cec-9184-8f376c4d3a51",
-            "Integrity_ID": "45f8b0c9-f2f2-4782-80cf-acc917cb4373",
-            "Availability_ID": "16496f53-49b7-42b3-8cbe-a233d055f12d",
+            "Confidentiality_ID": "93ba37cb-e0a6-4041-9f9a-82f622ed2f06",
+            "Integrity_ID": "7c69fa80-5398-4737-b538-e75ac44d8166",
+            "Availability_ID": "10747818-7236-4f5a-b084-fb95cc50e042",
             "CIAJustification": "Raw sensor data is vital for real-time operational decisions, requiring moderate integrity & high availability."
         },
         {
             "UUID": "961b1849-be7c-4b15-b733-cabba3693144",
-            "Mission_ID": "1cdce144-b4b1-46dc-9088-32e5db444562",
+            "Mission_ID": "5eedebfd-55ef-4b15-8207-c98eae8fc438",
             "OperationalData_ID": "f53369a9-222f-4695-844e-b1ef420326d5",
             "InputData": false,
-            "Confidentiality_ID": "680cfd3a-ac60-4cec-9184-8f376c4d3a51",
-            "Integrity_ID": "1015c92b-ac2e-4691-a0f5-c283f461a30f",
-            "Availability_ID": "290799c9-115b-4f6c-8951-9aa22d46ff05",
+            "Confidentiality_ID": "93ba37cb-e0a6-4041-9f9a-82f622ed2f06",
+            "Integrity_ID": "aff0d75e-fb71-4cf7-89c4-d5293b43e9ed",
+            "Availability_ID": "41287f08-8bf3-467f-a841-449dc333074c",
             "CIAJustification": "System logs must remain accurate (high integrity), but are less time-critical to mission success."
         },
         {
             "UUID": "0a8e9e2d-f07a-4451-97a5-1cdec6a512e3",
-            "Mission_ID": "510125ec-cbd8-4c5e-b1c0-6d08d4f16b27",
+            "Mission_ID": "2552bd64-3093-4252-b994-40757fb4e4ac",
             "OperationalData_ID": "cb0db5f8-2326-4286-9c5d-a477ee0a48f0",
             "InputData": true,
-            "Confidentiality_ID": "41ba3d58-9b40-4ac3-87b3-bddc39a5d9fa",
-            "Integrity_ID": "1015c92b-ac2e-4691-a0f5-c283f461a30f",
-            "Availability_ID": "16496f53-49b7-42b3-8cbe-a233d055f12d",
+            "Confidentiality_ID": "0fe6ed1f-a52e-44a1-948c-187e27f75248",
+            "Integrity_ID": "aff0d75e-fb71-4cf7-89c4-d5293b43e9ed",
+            "Availability_ID": "10747818-7236-4f5a-b084-fb95cc50e042",
             "CIAJustification": "In-progress HPC data is crucial for analyzing gemstone deposits in near real-time."
         },
         {
             "UUID": "cd6bb498-6864-45b0-9f3e-b53828bb146d",
-            "Mission_ID": "510125ec-cbd8-4c5e-b1c0-6d08d4f16b27",
+            "Mission_ID": "2552bd64-3093-4252-b994-40757fb4e4ac",
             "OperationalData_ID": "92899dbb-3476-4926-b873-477c7de8f463",
             "InputData": false,
-            "Confidentiality_ID": "41ba3d58-9b40-4ac3-87b3-bddc39a5d9fa",
-            "Integrity_ID": "1015c92b-ac2e-4691-a0f5-c283f461a30f",
-            "Availability_ID": "290799c9-115b-4f6c-8951-9aa22d46ff05",
+            "Confidentiality_ID": "0fe6ed1f-a52e-44a1-948c-187e27f75248",
+            "Integrity_ID": "aff0d75e-fb71-4cf7-89c4-d5293b43e9ed",
+            "Availability_ID": "41287f08-8bf3-467f-a841-449dc333074c",
             "CIAJustification": "Archived analytics are used for reference but not real-time operations."
         },
         {
             "UUID": "7fcd112b-e361-44b9-aa43-17c34bf690ed",
-            "Mission_ID": "c6145593-531a-47a5-a12d-2fe671a79676",
+            "Mission_ID": "56e05d71-b233-46ea-ba9d-b1ec7548b73c",
             "OperationalData_ID": "8bda9863-beb4-421b-a6dd-b1dffbf9a9f2",
             "InputData": true,
-            "Confidentiality_ID": "680cfd3a-ac60-4cec-9184-8f376c4d3a51",
-            "Integrity_ID": "45f8b0c9-f2f2-4782-80cf-acc917cb4373",
-            "Availability_ID": "05e06c12-304c-42e9-b0fc-aa88f5391d23",
+            "Confidentiality_ID": "93ba37cb-e0a6-4041-9f9a-82f622ed2f06",
+            "Integrity_ID": "7c69fa80-5398-4737-b538-e75ac44d8166",
+            "Availability_ID": "b7e799a1-3308-4fcd-bb8c-4f9c7cc12de2",
             "CIAJustification": "Gemstone detection heavily depends on continuous sensor data\u00e2\u20ac\u201dmust be available at all times."
         },
         {
             "UUID": "0cf14fc6-934e-4110-b177-4a96e83d2c1b",
-            "Mission_ID": "9bbacd45-6555-4c14-9091-14b7cbb518a1",
+            "Mission_ID": "ac6b6f86-3ddc-4c01-8a21-9d6031b8512f",
             "OperationalData_ID": "f53369a9-222f-4695-844e-b1ef420326d5",
             "InputData": false,
-            "Confidentiality_ID": "680cfd3a-ac60-4cec-9184-8f376c4d3a51",
-            "Integrity_ID": "1015c92b-ac2e-4691-a0f5-c283f461a30f",
-            "Availability_ID": "290799c9-115b-4f6c-8951-9aa22d46ff05",
+            "Confidentiality_ID": "93ba37cb-e0a6-4041-9f9a-82f622ed2f06",
+            "Integrity_ID": "aff0d75e-fb71-4cf7-89c4-d5293b43e9ed",
+            "Availability_ID": "41287f08-8bf3-467f-a841-449dc333074c",
             "CIAJustification": "Sensor prep references logs to check errors. Accuracy is key, but real-time criticality is moderate."
         },
         {
             "UUID": "ec9306ff-2d31-42cb-9187-b6a864efb712",
-            "Mission_ID": "9bbacd45-6555-4c14-9091-14b7cbb518a1",
+            "Mission_ID": "ac6b6f86-3ddc-4c01-8a21-9d6031b8512f",
             "OperationalData_ID": "c9e4e248-52fc-4586-8a19-edec2c7faf3b",
             "InputData": true,
-            "Confidentiality_ID": "41ba3d58-9b40-4ac3-87b3-bddc39a5d9fa",
-            "Integrity_ID": "45f8b0c9-f2f2-4782-80cf-acc917cb4373",
-            "Availability_ID": "16496f53-49b7-42b3-8cbe-a233d055f12d",
+            "Confidentiality_ID": "0fe6ed1f-a52e-44a1-948c-187e27f75248",
+            "Integrity_ID": "7c69fa80-5398-4737-b538-e75ac44d8166",
+            "Availability_ID": "10747818-7236-4f5a-b084-fb95cc50e042",
             "CIAJustification": "Calibration and sensor test rely on working data; must be available & consistent but medium confidentiality."
         },
         {
             "UUID": "870c7608-9a85-4792-85c6-1e76643c6089",
-            "Mission_ID": "81b873b0-b9a5-4069-a769-34ad321d161b",
+            "Mission_ID": "6d5df1a2-4d3c-4738-a5d9-bbe58725c156",
             "OperationalData_ID": "57b7db3c-072f-499c-80a8-11667962d9a9",
             "InputData": false,
-            "Confidentiality_ID": "41ba3d58-9b40-4ac3-87b3-bddc39a5d9fa",
-            "Integrity_ID": "45f8b0c9-f2f2-4782-80cf-acc917cb4373",
-            "Availability_ID": "290799c9-115b-4f6c-8951-9aa22d46ff05",
+            "Confidentiality_ID": "0fe6ed1f-a52e-44a1-948c-187e27f75248",
+            "Integrity_ID": "7c69fa80-5398-4737-b538-e75ac44d8166",
+            "Availability_ID": "41287f08-8bf3-467f-a841-449dc333074c",
             "CIAJustification": "ML model outputs support reconnaissance analysis; not strictly input but critical for threat identification."
         },
         {
-            "UUID": "6e76f7bb-997b-43d9-975e-4292b97788bd",
-            "Mission_ID": "81b873b0-b9a5-4069-a769-34ad321d161b",
-            "OperationalData_ID": "od-navigation",
-            "InputData": true,
-            "Confidentiality_ID": "680cfd3a-ac60-4cec-9184-8f376c4d3a51",
-            "Integrity_ID": "1015c92b-ac2e-4691-a0f5-c283f461a30f",
-            "Availability_ID": "16496f53-49b7-42b3-8cbe-a233d055f12d",
-            "CIAJustification": "Accurate navigation data is essential for safe reconnaissance flight planning."
-        },
-        {
             "UUID": "4546932b-625d-4901-9e44-b6ec5ad01975",
-            "Mission_ID": "1689e301-2429-4842-b3a7-7da810408d01",
+            "Mission_ID": "fd361264-dcfd-4716-b7de-fd278fe39730",
             "OperationalData_ID": "c21b58ce-e37d-4d47-a06c-2246adcac9f1",
             "InputData": false,
-            "Confidentiality_ID": "41ba3d58-9b40-4ac3-87b3-bddc39a5d9fa",
-            "Integrity_ID": "1015c92b-ac2e-4691-a0f5-c283f461a30f",
-            "Availability_ID": "ca6903e5-1684-4064-b356-5412e0bba9b1",
+            "Confidentiality_ID": "0fe6ed1f-a52e-44a1-948c-187e27f75248",
+            "Integrity_ID": "aff0d75e-fb71-4cf7-89c4-d5293b43e9ed",
+            "Availability_ID": "82e07fe8-7df5-4126-b0f4-4710371c566e",
             "CIAJustification": "Firewall logs help identify potential malicious activities. Integrity is key, real-time availability less critical."
         },
         {
             "UUID": "15c7fd6c-f51d-4ea8-8725-c5838d3318e7",
-            "Mission_ID": "1689e301-2429-4842-b3a7-7da810408d01",
+            "Mission_ID": "fd361264-dcfd-4716-b7de-fd278fe39730",
             "OperationalData_ID": "026ad6eb-0dfa-415c-9fa8-b703617bb9c8",
             "InputData": true,
-            "Confidentiality_ID": "fb54433f-9dbb-4564-8359-cd31cc732eb3",
-            "Integrity_ID": "1015c92b-ac2e-4691-a0f5-c283f461a30f",
-            "Availability_ID": "16496f53-49b7-42b3-8cbe-a233d055f12d",
+            "Confidentiality_ID": "93b80575-dcc2-4496-83df-081b51b0d9c1",
+            "Integrity_ID": "aff0d75e-fb71-4cf7-89c4-d5293b43e9ed",
+            "Availability_ID": "10747818-7236-4f5a-b084-fb95cc50e042",
             "CIAJustification": "Database records of threat intel require high CIA across the board for safe, effective neutralization."
         },
         {
             "UUID": "1bbe27d9-b823-48a5-9405-5841ff5825c3",
-            "Mission_ID": "01c2971d-5363-490c-9a91-4fd45308b913",
+            "Mission_ID": "f09796f6-ba51-43d7-9af8-fac23c9ae3ea",
             "OperationalData_ID": "5165d481-64e1-4f28-914b-96f25ddf15df",
             "InputData": false,
-            "Confidentiality_ID": "680cfd3a-ac60-4cec-9184-8f376c4d3a51",
-            "Integrity_ID": "45f8b0c9-f2f2-4782-80cf-acc917cb4373",
-            "Availability_ID": "16496f53-49b7-42b3-8cbe-a233d055f12d",
+            "Confidentiality_ID": "93ba37cb-e0a6-4041-9f9a-82f622ed2f06",
+            "Integrity_ID": "7c69fa80-5398-4737-b538-e75ac44d8166",
+            "Availability_ID": "10747818-7236-4f5a-b084-fb95cc50e042",
             "CIAJustification": "Web server logs can reveal communication anomalies; high availability for quick troubleshooting."
         },
         {
             "UUID": "c629541e-bbd4-46bc-816d-68c6536b3750",
-            "Mission_ID": "01c2971d-5363-490c-9a91-4fd45308b913",
+            "Mission_ID": "f09796f6-ba51-43d7-9af8-fac23c9ae3ea",
             "OperationalData_ID": "cfa7af7f-430a-42d2-b1be-79290c6ba55b",
             "InputData": false,
-            "Confidentiality_ID": "41ba3d58-9b40-4ac3-87b3-bddc39a5d9fa",
-            "Integrity_ID": "45f8b0c9-f2f2-4782-80cf-acc917cb4373",
-            "Availability_ID": "05e06c12-304c-42e9-b0fc-aa88f5391d23",
+            "Confidentiality_ID": "0fe6ed1f-a52e-44a1-948c-187e27f75248",
+            "Integrity_ID": "7c69fa80-5398-4737-b538-e75ac44d8166",
+            "Availability_ID": "b7e799a1-3308-4fcd-bb8c-4f9c7cc12de2",
             "CIAJustification": "VM images ensure fallback or re-deployment of comm systems. Very high availability needed if system fails."
         },
         {
             "UUID": "0cc0cdeb-15f9-4568-9e2c-c6e101c3d30f",
-            "Mission_ID": "323bfd08-371d-4a35-a4c8-38bad687d085",
+            "Mission_ID": "bf998a75-96f7-4c65-b2ae-ccbfe22936f1",
             "OperationalData_ID": "8bda9863-beb4-421b-a6dd-b1dffbf9a9f2",
             "InputData": true,
-            "Confidentiality_ID": "680cfd3a-ac60-4cec-9184-8f376c4d3a51",
-            "Integrity_ID": "45f8b0c9-f2f2-4782-80cf-acc917cb4373",
-            "Availability_ID": "05e06c12-304c-42e9-b0fc-aa88f5391d23",
+            "Confidentiality_ID": "93ba37cb-e0a6-4041-9f9a-82f622ed2f06",
+            "Integrity_ID": "7c69fa80-5398-4737-b538-e75ac44d8166",
+            "Availability_ID": "b7e799a1-3308-4fcd-bb8c-4f9c7cc12de2",
             "CIAJustification": "Real-time sensor data is critical for flight path adjustments; must be continuously available."
         },
         {
             "UUID": "a99d5ba2-9daf-4084-a3e5-88def719d39f",
-            "Mission_ID": "323bfd08-371d-4a35-a4c8-38bad687d085",
+            "Mission_ID": "bf998a75-96f7-4c65-b2ae-ccbfe22936f1",
             "OperationalData_ID": "21e69992-8c4b-4297-9afc-fb499f49047a",
             "InputData": false,
-            "Confidentiality_ID": "41ba3d58-9b40-4ac3-87b3-bddc39a5d9fa",
-            "Integrity_ID": "45f8b0c9-f2f2-4782-80cf-acc917cb4373",
-            "Availability_ID": "290799c9-115b-4f6c-8951-9aa22d46ff05",
+            "Confidentiality_ID": "0fe6ed1f-a52e-44a1-948c-187e27f75248",
+            "Integrity_ID": "7c69fa80-5398-4737-b538-e75ac44d8166",
+            "Availability_ID": "41287f08-8bf3-467f-a841-449dc333074c",
             "CIAJustification": "Backup images for flight software can be used if reinstallation is needed; moderate across CIA."
         }
     ],
@@ -7654,8 +7520,6 @@
         },
         {
             "UUID": "2831545d-6aba-4274-8052-b14568fb9e29",
-            "Name": "HPC Manager Node to Infiniband Switch",
-            "Description": "Infiniband connection for HPC Manager Node to HPC IB Switch.",
             "ConnectionType_ID": "a170115d-b608-4217-9e0e-0daf7c0a400f",
             "System1_ID": "8623030f-1624-4d44-840e-637a236f9bf1",
             "System2_ID": "d39dff27-8167-4a82-ba6c-4e6b288af3bc",
@@ -7664,8 +7528,6 @@
         },
         {
             "UUID": "449f8e2b-0b8c-42e1-9138-979226c162ea",
-            "Name": "HPC Compute Node #1 to Infiniband Switch",
-            "Description": "Infiniband connection for HPC Compute Node #1.",
             "ConnectionType_ID": "a170115d-b608-4217-9e0e-0daf7c0a400f",
             "System1_ID": "527df8fc-ff99-4f0e-bb94-a3e156d0a360",
             "System2_ID": "d39dff27-8167-4a82-ba6c-4e6b288af3bc",
@@ -7674,8 +7536,6 @@
         },
         {
             "UUID": "fe6158f7-58d8-4a77-886f-924fb325ec71",
-            "Name": "HPC to Data Storage Node (LAN)",
-            "Description": "10Gb LAN connection from HPC cluster to data storage node.",
             "ConnectionType_ID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
             "System1_ID": "0f5aba03-9944-447f-8cba-8ea98d4f481c",
             "System2_ID": "9406f2e1-ab43-4b04-8bd2-fffe06cc06bd",
@@ -7684,8 +7544,6 @@
         },
         {
             "UUID": "ed3fa088-deb9-4c26-93ad-0269bf234317",
-            "Name": "HPC to Data Storage Node (Fiber Channel)",
-            "Description": "Fiber Channel connection for HPC cluster direct block-level storage.",
             "ConnectionType_ID": "0483a8c1-d98a-40bc-80c5-fe8dda408d2e",
             "System1_ID": "0f5aba03-9944-447f-8cba-8ea98d4f481c",
             "System2_ID": "9406f2e1-ab43-4b04-8bd2-fffe06cc06bd",
@@ -7694,8 +7552,6 @@
         },
         {
             "UUID": "b0152973-43a9-4181-8ea6-e8188a9f2b2c",
-            "Name": "GPU Workstation to Data Storage Node",
-            "Description": "Ethernet link for data read/write between workstation and DSN.",
             "ConnectionType_ID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
             "System1_ID": "bb7b0ef9-b853-4627-9b72-3eb88a287828",
             "System2_ID": "9406f2e1-ab43-4b04-8bd2-fffe06cc06bd",
@@ -7704,8 +7560,6 @@
         },
         {
             "UUID": "6600bdfc-0a33-4282-a038-0aed994b98f6",
-            "Name": "Visualization Workstation to Core Switch",
-            "Description": "Connection for the visualization workstation to the main network.",
             "ConnectionType_ID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
             "System1_ID": "06cbe73a-4158-49fd-96d3-d8e0f794f8fe",
             "System2_ID": "fbfd2f14-6e42-4f86-ae70-6b8a140443ee",
@@ -7714,8 +7568,6 @@
         },
         {
             "UUID": "77154bd5-94da-4268-a7d0-07864b30e28c",
-            "Name": "Core Switch to Firewall",
-            "Description": "Connection carrying LAN traffic to the firewall.",
             "ConnectionType_ID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
             "System1_ID": "fbfd2f14-6e42-4f86-ae70-6b8a140443ee",
             "System2_ID": "f88819e0-4287-4fea-915a-08373dfa8ae7",
@@ -7724,8 +7576,6 @@
         },
         {
             "UUID": "542903ec-c288-4600-9193-ccaa8dea7114",
-            "Name": "Firewall to Outside Network",
-            "Description": "Connection from firewall to external WAN/Internet.",
             "ConnectionType_ID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
             "System1_ID": "f88819e0-4287-4fea-915a-08373dfa8ae7",
             "System2_ID": null,
@@ -7734,8 +7584,6 @@
         },
         {
             "UUID": "120b9fef-8771-4ed1-82a8-513e5ac1ddba",
-            "Name": "VM Host1 to Core Switch",
-            "Description": "LAN connection for hypervisor host 1 to the core switch.",
             "ConnectionType_ID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
             "System1_ID": "c77ed1c3-6d40-44d9-ad9b-437b52e0fffb",
             "System2_ID": "fbfd2f14-6e42-4f86-ae70-6b8a140443ee",
@@ -7744,8 +7592,6 @@
         },
         {
             "UUID": "72a78c46-c49c-4592-9663-9f3f75c462be",
-            "Name": "VM Host2 to Core Switch",
-            "Description": "LAN connection for hypervisor host 2 to the core switch.",
             "ConnectionType_ID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
             "System1_ID": "b4bb294c-ca92-4653-a0e3-1aed243e1df9",
             "System2_ID": "fbfd2f14-6e42-4f86-ae70-6b8a140443ee",
@@ -7754,8 +7600,6 @@
         },
         {
             "UUID": "19beff69-415b-4556-8ebd-d8519088ff14",
-            "Name": "Backup Server to Core Switch",
-            "Description": "Link for backup server to connect to internal LAN for data backups.",
             "ConnectionType_ID": "6b5aa21d-af3b-4866-911a-f5bbb13a79b0",
             "System1_ID": "32981f3c-2db6-48b8-8407-d26e099d8efd",
             "System2_ID": "fbfd2f14-6e42-4f86-ae70-6b8a140443ee",
