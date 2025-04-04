@@ -1,6 +1,6 @@
 # STARK
 
-![STARK Logo](STARK_Logo.jpg)
+![STARK Logo](STARK_Logo.png)
 
 ## Latest Schema Version
 [2.0.4](https://github.com/stellatechnologies/CyberDataSchema)
