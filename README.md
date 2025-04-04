@@ -118,4 +118,10 @@ We welcome collaboration and feedback to enhance the STARK system's capabilities
 
 ## Open Source Support
 
-Stella Technologies is committed to the long-term success and sustainability of the STARK project through open-source collaboration. We invite developers, researchers, and enthusiasts to contribute to STARK's ongoing development. Your contributions will help enhance STARK's capabilities, ensure its adaptability to future missions, and foster a vibrant community of innovators. However, this will first require the de-obfuscation of the STARK JSON data.
+Stella Technologies is committed to the long-term success and sustainability of the STARK project through open-source collaboration. We invite developers, researchers, and enthusiasts to contribute to STARK's ongoing development. Your contributions will help enhance STARK's capabilities, ensure its adaptability to future missions, and foster a vibrant community of innovators.
+
+
+## License
+
+This project is licensed under the MIT License.
+
