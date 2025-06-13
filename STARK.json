@@ -26859,21 +26859,24 @@
             "Name": "Command and Control Boundary",
             "Description": "Security boundary encompassing all ground-based command, control, and communication systems used to operate and monitor the UAV platform.",
             "Program_ID": null,
-            "Acronym": "C2 Boundary"
+            "Acronym": "C2 Boundary",
+            "AuthorizingOfficialType_ID": "63e7517e-e3ab-4aed-bd05-2edf2ed427bb"
         },
         {
             "UUID": "e4bf371a-d630-4ae2-8cff-c36d4078022b",
             "Name": "Space Vehicle Boundary",
             "Description": "Physical and logical security boundary containing all airborne components, including the UAV platform, its onboard systems, and integrated mission equipment.",
             "Program_ID": null,
-            "Acronym": "SV Boundary"
+            "Acronym": "SV Boundary",
+            "AuthorizingOfficialType_ID": "63e7517e-e3ab-4aed-bd05-2edf2ed427bb"
         },
         {
             "UUID": "1b5ca1ff-9ecd-4ce0-bf1f-31ec1104a6ec",
             "Name": "Maintenance Equipment Boundary",
             "Description": "Security boundary encompassing all ground support equipment, maintenance tools, diagnostic systems, and repair facilities.",
             "Program_ID": null,
-            "Acronym": "MX Boundary"
+            "Acronym": "MX Boundary",
+            "AuthorizingOfficialType_ID": "63e7517e-e3ab-4aed-bd05-2edf2ed427bb"
         }
     ],
     "ConnectionType": [
@@ -27068,6 +27071,705 @@
             "System_ID": "32981f3c-2db6-48b8-8407-d26e099d8efd",
             "InterfaceType_ID": "80dedab6-c0e5-404e-9a57-74a4fd77bf8d",
             "Name": "Backup Server LAN Port"
+        }
+    ],
+    "Program": [
+        {
+            "UUID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "ProgramDtl_ID": "35d06325-8eaa-4732-930c-19ae772e5679"
+        }
+    ],
+    "ProgramDtl": [
+        {
+            "UUID": "35d06325-8eaa-4732-930c-19ae772e5679",
+            "Name": "Space Technology for Acquisition, Reconnaissance, and Killing",
+            "Acronym": "STARK",
+            "SystemPurpose": "An autonomous quadcopter system designed to explore alien planets, detect and collect valuable gemstones, gather intelligence, and neutralize hostile threats.",
+            "CONOPS": "STARK operates as an advanced autonomous quadcopter platform conducting planetary exploration missions. Primary operations include gemstone detection and acquisition, reconnaissance of planetary environments, threat identification and elimination, and maintaining reliable communications. The system executes pre-mission preparations, conducts autonomous navigation with manual override capability, and performs post-mission maintenance to ensure continued operational readiness.",
+            "MDS": "QC-1A",
+            "ForeignUsers": false,
+            "UserFullDataAccess": false,
+            "ITType_ID": "cb78d3df-06c8-42be-a42c-5a1cb0e4d121",
+            "RDTEType_ID": null,
+            "SystemProtectionLevel_ID": "a8ffdaa5-ee8e-4907-8615-309e13563f50",
+            "OperationalStatus_ID": "496536d1-3333-4dba-b1f4-18d9bdfee00f"
+        }
+    ],
+    "User": [
+        {
+            "UUID": "30c56eca-b9e7-49d4-93a1-040bebda373b",
+            "Previous_ID": null,
+            "UserDtl_ID": "50450428-5566-45d8-9d3c-91ba09c0f673"
+        },
+        {
+            "UUID": "81020b40-36d1-4fc3-b7f1-c75cb037a5c2",
+            "Previous_ID": null,
+            "UserDtl_ID": "c87fbc9c-cff2-47ef-96e4-3fb690371c54"
+        },
+        {
+            "UUID": "40ed757c-95a9-4d02-8fae-9c15637d6233",
+            "Previous_ID": null,
+            "UserDtl_ID": "f25b03f9-3356-445e-ac92-97b3e206e9be"
+        },
+        {
+            "UUID": "11ef4fb9-c1d0-4f7c-a12b-b541663b5411",
+            "Previous_ID": null,
+            "UserDtl_ID": "4c48ed7b-7b38-49d9-bdb8-1cc581e0fbc7"
+        },
+        {
+            "UUID": "198a96e0-c661-4588-941d-e60324c7ae95",
+            "Previous_ID": null,
+            "UserDtl_ID": "f28a2131-e873-46ba-9128-eb022211ac4c"
+        },
+        {
+            "UUID": "cd70d9d4-da32-44c7-a071-650f9c30d865",
+            "Previous_ID": null,
+            "UserDtl_ID": "f67477f-6d3d-43d8-bb1f-411b9d01d22d"
+        },
+        {
+            "UUID": "403f76f0-b962-477c-8bb7-53884698fb92",
+            "Previous_ID": null,
+            "UserDtl_ID": "417f5129-a935-4746-be8a-c401f2e92e9c"
+        },
+        {
+            "UUID": "669d78f2-f0be-40c9-a6f2-b7b1513c92ff",
+            "Previous_ID": null,
+            "UserDtl_ID": "c4e0890c-4abb-456e-ab78-adf6be11c067"
+        }
+    ],
+    "UserDtl": [
+        {
+            "UUID": "50450428-5566-45d8-9d3c-91ba09c0f673",
+            "FirstName": "James",
+            "LastName": "Walker",
+            "PhoneNumber": "555-341-2290"
+        },
+        {
+            "UUID": "c87fbc9c-cff2-47ef-96e4-3fb690371c54",
+            "FirstName": "Robert",
+            "LastName": "Thompson",
+            "PhoneNumber": "555-782-6644"
+        },
+        {
+            "UUID": "f25b03f9-3356-445e-ac92-97b3e206e9be",
+            "FirstName": "William",
+            "LastName": "Adams",
+            "PhoneNumber": "555-991-0043"
+        },
+        {
+            "UUID": "4c48ed7b-7b38-49d9-bdb8-1cc581e0fbc7",
+            "FirstName": "Charles",
+            "LastName": "Parker",
+            "PhoneNumber": "555-204-8791"
+        },
+        {
+            "UUID": "f28a2131-e873-46ba-9128-eb022211ac4c",
+            "FirstName": "Susan",
+            "LastName": "Reed",
+            "PhoneNumber": "555-612-3400"
+        },
+        {
+            "UUID": "f67477f-6d3d-43d8-bb1f-411b9d01d22d",
+            "FirstName": "Thomas",
+            "LastName": "Hughes",
+            "PhoneNumber": "555-874-5562"
+        },
+        {
+            "UUID": "417f5129-a935-4746-be8a-c401f2e92e9c",
+            "FirstName": "Barbara",
+            "LastName": "Barnes",
+            "PhoneNumber": "555-349-8871"
+        },
+        {
+            "UUID": "c4e0890c-4abb-456e-ab78-adf6be11c067",
+            "FirstName": "John",
+            "LastName": "Russell",
+            "PhoneNumber": "555-003-2201"
+        }
+    ],
+    "UserType": [
+        {
+            "UUID": "943e75d7-b72a-4810-8612-754005813f66",
+            "Name": "Authorizing Official"
+        },
+        {
+            "UUID": "cc61bc3d-4ee7-47a0-9bb7-92cff0310f56",
+            "Name": "Security Control Assessor"
+        },
+        {
+            "UUID": "781eb421-1e98-4d2b-9ad6-aa0c0109aed8",
+            "Name": "Program Executive Officer"
+        },
+        {
+            "UUID": "dd0d12bf-205d-4d1e-9c1c-fdf99329cf67",
+            "Name": "Senior Material Leader"
+        },
+        {
+            "UUID": "d79e75b5-5a21-4e09-bba6-7d354fb75c90",
+            "Name": "Chief Engineer"
+        },
+        {
+            "UUID": "1884bcd6-cb15-4922-8c19-5d36f9f56ede",
+            "Name": "Chief of Security"
+        },
+        {
+            "UUID": "c3611a88-7a61-40dd-9091-9ea84b006758",
+            "Name": "Information System Security Manager"
+        },
+        {
+            "UUID": "2fdcec8c-7044-4413-9ac5-df358c8851ff",
+            "Name": "Information System Security Officer"
+        }
+    ],
+    "ProgramUser": [
+        {
+            "UUID": "7cab0a23-ee02-45b7-8697-dfe0b311903a",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "User_ID": "30c56eca-b9e7-49d4-93a1-040bebda373b",
+            "UserType_ID": "336f1920-9b73-43bf-8e35-b5e1103a27c4",
+            "UserTitle": "Authorizing Official"
+        },
+        {
+            "UUID": "e59c525f-a002-4a10-a41e-205278c04f0b",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "User_ID": "81020b40-36d1-4fc3-b7f1-c75cb037a5c2",
+            "UserType_ID": "cad40c96-b910-4ff7-9752-97e5073d36b3",
+            "UserTitle": "Security Control Assessor"
+        },
+        {
+            "UUID": "105d0485-d7df-4e2c-8f5c-e7a927c5336d",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "User_ID": "40ed757c-95a9-4d02-8fae-9c15637d6233",
+            "UserType_ID": "781eb421-1e98-4d2b-9ad6-aa0c0109aed8",
+            "UserTitle": "Program Executive Officer"
+        },
+        {
+            "UUID": "ad373a4a-819d-492c-abca-609141706353",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "User_ID": "11ef4fb9-c1d0-4f7c-a12b-b541663b5411",
+            "UserType_ID": "e5cfcd7b-135f-4806-b4ed-5a840c2902eb",
+            "UserTitle": "Senior Material Leader"
+        },
+        {
+            "UUID": "bd43e0bd-7dc7-4923-9f09-719fe1a15b48",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "User_ID": "198a96e0-c661-4588-941d-e60324c7ae95",
+            "UserType_ID": "d79e75b5-5a21-4e09-bba6-7d354fb75c90",
+            "UserTitle": "Chief Engineer"
+        },
+        {
+            "UUID": "aec29bf7-9631-44f1-b54c-9f3e2fd90407",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "User_ID": "cd70d9d4-da32-44c7-a071-650f9c30d865",
+            "UserType_ID": "1884bcd6-cb15-4922-8c19-5d36f9f56ede",
+            "UserTitle": "Chief of Security"
+        },
+        {
+            "UUID": "046da8c8-992c-4bca-812d-cc60c79582ea",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "User_ID": "403f76f0-b962-477c-8bb7-53884698fb92",
+            "UserType_ID": "da326c99-762f-465e-b070-6f6872e76504",
+            "UserTitle": "Information System Security Manager"
+        },
+        {
+            "UUID": "5189a401-36bf-4013-822f-ba90730380e3",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "User_ID": "669d78f2-f0be-40c9-a6f2-b7b1513c92ff",
+            "UserType_ID": "b83439d3-1111-4930-8cb9-5f4adc5236a7",
+            "UserTitle": "Information System Security Officer"
+        }
+    ],
+    "ClassificationType": [
+        {
+            "UUID": "41b8faf7-f213-408a-a02d-eb449e553e1f",
+            "Name": "FAKE-Unclassified",
+            "Acronym": "U"
+        },
+        {
+            "UUID": "7faa2ab3-2564-4f32-934d-03428fe62179",
+            "Name": "FAKE-Confidential",
+            "Acronym": "C"
+        },
+        {
+            "UUID": "04e4d517-f6c8-416d-b723-6243ffef9e9b",
+            "Name": "FAKE-Secret",
+            "Acronym": "S"
+        },
+        {
+            "UUID": "63aa2dc9-6bcd-4963-a45e-cb19b586cff1",
+            "Name": "FAKE-Top Secret",
+            "Acronym": "TS"
+        }
+    ],
+    "SecurityClassificationGuide": [
+        {
+            "UUID": "19895eb2-fd55-41e6-94d4-3f24d2f78451",
+            "Name": "Stark Program SCG",
+            "Version": "1.0",
+            "CreatedDate": "2023-01-01",
+            "ModifiedDate": "2023-01-01",
+            "Previous_ID": null,
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Parent_ID": null,
+            "OperationalData": [],
+            "ProgrammaticData": [
+                "059e37cc-6168-4842-bae6-873e572129b0",
+                "aeffe896-4407-4b1f-afec-2939510ed427",
+                "4a1f7b0d-1acf-499d-ab34-f818dff8eb42",
+                "20622add-099a-467f-b7e0-8ddd44bdbb8b",
+                "6472028b-01f8-4fec-8475-cf43669427d6",
+                "b76eec4b-25d3-4507-ac48-18d4cbeb287b",
+                "e8bd38dc-a292-47ea-a9f9-ad93e4d2b293",
+                "6565e744-1f10-4216-a33b-0b3cf4cd21ab",
+                "d93404e9-0c16-4702-9895-4ac27fd2fec0",
+                "f2a1cb18-1ad7-441a-a9d1-61726834ae74",
+                "12217c83-493d-468e-9aa7-ffb3dac13ca7",
+                "6f214a08-b341-43e8-b438-34b4e7d90945",
+                "a8c6a097-88b9-4d72-87e9-2bd0506ae244",
+                "a8a814df-e983-43fd-9072-00861ed2d156",
+                "431d0ee7-646c-47ad-be5f-b816ee1a8552",
+                "dd635f0f-c97d-430d-8746-0d44b8536ae6",
+                "cc281c6c-715a-43d4-8d78-1572bb9d54a2",
+                "b07c2c19-fb58-4a93-8ee1-214d555b9412",
+                "ad4f791d-c380-4361-89b5-f09383be8e2e",
+                "56f5477a-a78f-45b5-a87c-4f8c68cfd1dc"
+            ]
+        }
+    ],
+    "ClassificationStatement": [
+        {
+            "UUID": "70422126-ef72-4523-887c-d5f7435c892e",
+            "Name": "FAKE-U//FOUO",
+            "ClassificationTypes": [
+                "41b8faf7-f213-408a-a02d-eb449e553e1f"
+            ],
+            "Disseminations": [
+                "3fb5cdae-e888-4c9c-bcdd-d6312c5eb212"
+            ],
+            "ControlCaveats": []
+        },
+        {
+            "UUID": "20e4f939-60a6-49de-a67b-0a0917fe7875",
+            "Name": "FAKE-C//NOFORN",
+            "ClassificationTypes": [
+                "7faa2ab3-2564-4f32-934d-03428fe62179"
+            ],
+            "Disseminations": [
+                "e9a3a21b-a7ac-43b3-afd5-c39dde7dd62a"
+            ],
+            "ControlCaveats": []
+        },
+        {
+            "UUID": "92490ed6-251e-40f9-97ef-e08158dc7d73",
+            "Name": "FAKE-S//REL TO USA, FVEY",
+            "ClassificationTypes": [
+                "04e4d517-f6c8-416d-b723-6243ffef9e9b"
+            ],
+            "Disseminations": [
+                "d779226e-746a-443f-b6ea-e8493f534ba3"
+            ],
+            "ControlCaveats": []
+        },
+        {
+            "UUID": "ac705759-f840-4c19-b7b9-8008510aa4e3",
+            "Name": "FAKE-TS//SCI",
+            "ClassificationTypes": [
+                "63aa2dc9-6bcd-4963-a45e-cb19b586cff1"
+            ],
+            "Disseminations": [],
+            "ControlCaveats": [
+                "c3bb13d7-28e1-4a0b-9e10-5f147e3bb28a"
+            ]
+        }
+    ],
+    "ProgrammaticData": [
+        {
+            "UUID": "059e37cc-6168-4842-bae6-873e572129b0",
+            "Name": "Program Existence",
+            "Details": "The fact that the Stark program exists.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "70422126-ef72-4523-887c-d5f7435c892e"
+        },
+        {
+            "UUID": "aeffe896-4407-4b1f-afec-2939510ed427",
+            "Name": "Program Objectives",
+            "Details": "The objectives of the Stark program.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "20e4f939-60a6-49de-a67b-0a0917fe7875"
+        },
+        {
+            "UUID": "4a1f7b0d-1acf-499d-ab34-f818dff8eb42",
+            "Name": "Key Technologies",
+            "Details": "The key technologies used in the Stark program.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "92490ed6-251e-40f9-97ef-e08158dc7d73"
+        },
+        {
+            "UUID": "20622add-099a-467f-b7e0-8ddd44bdbb8b",
+            "Name": "Performance Parameters",
+            "Details": "The performance parameters of the Stark system.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "ac705759-f840-4c19-b7b9-8008510aa4e3"
+        },
+        {
+            "UUID": "6472028b-01f8-4fec-8475-cf43669427d6",
+            "Name": "Program Funding Sources",
+            "Details": "Specific sources of funding for the Stark program, including government agencies and private contractors.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "20e4f939-60a6-49de-a67b-0a0917fe7875"
+        },
+        {
+            "UUID": "b76eec4b-25d3-4507-ac48-18d4cbeb287b",
+            "Name": "Threat Neutralization Protocols",
+            "Details": "Protocols for how the Stark UAV identifies and neutralizes threats using onboard weapon systems.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "ac705759-f840-4c19-b7b9-8008510aa4e3"
+        },
+        {
+            "UUID": "e8bd38dc-a292-47ea-a9f9-ad93e4d2b293",
+            "Name": "Reconnaissance Data Processing",
+            "Details": "Methods for processing and analyzing reconnaissance data collected by the Stark UAV.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "92490ed6-251e-40f9-97ef-e08158dc7d73"
+        },
+        {
+            "UUID": "6565e744-1f10-4216-a33b-0b3cf4cd21ab",
+            "Name": "Extraction Mission Parameters",
+            "Details": "Parameters for extraction missions, including payload types, weight limits, and deployment conditions.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "20e4f939-60a6-49de-a67b-0a0917fe7875"
+        },
+        {
+            "UUID": "d93404e9-0c16-4702-9895-4ac27fd2fec0",
+            "Name": "Software Architecture Overview",
+            "Details": "Overview of the software architecture powering the Stark UAV's autonomous systems.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "92490ed6-251e-40f9-97ef-e08158dc7d73"
+        },
+        {
+            "UUID": "f2a1cb18-1ad7-441a-a9d1-61726834ae74",
+            "Name": "Hardware Redundancy Design",
+            "Details": "Design details of hardware redundancy to ensure mission reliability in case of component failure.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "ac705759-f840-4c19-b7b9-8008510aa4e3"
+        },
+        {
+            "UUID": "12217c83-493d-468e-9aa7-ffb3dac13ca7",
+            "Name": "Operator Training Curriculum",
+            "Details": "Curriculum for training operators on the Stark UAV's systems and mission execution.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "70422126-ef72-4523-887c-d5f7435c892e"
+        },
+        {
+            "UUID": "6f214a08-b341-43e8-b438-34b4e7d90945",
+            "Name": "Logistics and Supply Chain",
+            "Details": "Details of the logistics and supply chain for manufacturing and maintaining the Stark UAV.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "20e4f939-60a6-49de-a67b-0a0917fe7875"
+        },
+        {
+            "UUID": "a8c6a097-88b9-4d72-87e9-2bd0506ae244",
+            "Name": "Cybersecurity Measures",
+            "Details": "Cybersecurity measures to protect the Stark UAV from hacking or electronic interference.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "ac705759-f840-4c19-b7b9-8008510aa4e3"
+        },
+        {
+            "UUID": "a8a814df-e983-43fd-9072-00861ed2d156",
+            "Name": "Emergency Response Procedures",
+            "Details": "Procedures for responding to emergencies, such as UAV malfunctions or unintended engagements.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "92490ed6-251e-40f9-97ef-e08158dc7d73"
+        },
+        {
+            "UUID": "431d0ee7-646c-47ad-be5f-b816ee1a8552",
+            "Name": "Intellectual Property Agreements",
+            "Details": "Agreements regarding intellectual property rights for Stark program technologies.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "20e4f939-60a6-49de-a67b-0a0917fe7875"
+        },
+        {
+            "UUID": "dd635f0f-c97d-430d-8746-0d44b8536ae6",
+            "Name": "Public Disclosure Guidelines",
+            "Details": "Guidelines for what can be disclosed to the public about the Stark program without compromising security.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "70422126-ef72-4523-887c-d5f7435c892e"
+        },
+        {
+            "UUID": "cc281c6c-715a-43d4-8d78-1572bb9d54a2",
+            "Name": "Counterintelligence Risks",
+            "Details": "Identified counterintelligence risks, such as espionage or technology theft by adversaries.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "92490ed6-251e-40f9-97ef-e08158dc7d73"
+        },
+        {
+            "UUID": "b07c2c19-fb58-4a93-8ee1-214d555b9412",
+            "Name": "Satellite Integration Details",
+            "Details": "Details on integrating the Stark UAV with satellite systems for navigation and communication.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "ac705759-f840-4c19-b7b9-8008510aa4e3"
+        },
+        {
+            "UUID": "ad4f791d-c380-4361-89b5-f09383be8e2e",
+            "Name": "Weather Tolerance Specifications",
+            "Details": "Specifications for the Stark UAV's ability to operate in adverse weather conditions like storms or extreme temperatures.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "92490ed6-251e-40f9-97ef-e08158dc7d73"
+        },
+        {
+            "UUID": "56f5477a-a78f-45b5-a87c-4f8c68cfd1dc",
+            "Name": "Decommissioning Plan",
+            "Details": "Plan for decommissioning and disposing of Stark UAV units at the end of their lifecycle.",
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "Classification_ID": "20e4f939-60a6-49de-a67b-0a0917fe7875"
+        }
+    ],
+    "Dissemination": [
+        {
+            "UUID": "3fb5cdae-e888-4c9c-bcdd-d6312c5eb212",
+            "Name": "FAKE-FOUO",
+            "PID": false,
+            "CodeName": null
+        },
+        {
+            "UUID": "e9a3a21b-a7ac-43b3-afd5-c39dde7dd62a",
+            "Name": "FAKE-NOFORN",
+            "PID": false,
+            "CodeName": null
+        },
+        {
+            "UUID": "d779226e-746a-443f-b6ea-e8493f534ba3",
+            "Name": "FAKE-REL TO USA, FVEY",
+            "PID": false,
+            "CodeName": null
+        }
+    ],
+    "ClassificationControlCaveats": [
+        {
+            "UUID": "c3bb13d7-28e1-4a0b-9e10-5f147e3bb28a",
+            "Name": "FAKE-SCI",
+            "Acronym": "SCI",
+            "Children": []
+        }
+    ],
+    "SystemProtectionLevel": [
+        {
+            "UUID": "0b30a854-722a-4deb-aa34-588d0dfe6cc4",
+            "Name": "PL-1"
+        },
+        {
+            "UUID": "a39ece1b-2220-4012-9d26-589c8ebae8aa",
+            "Name": "PL-2"
+        },
+        {
+            "UUID": "a8ffdaa5-ee8e-4907-8615-309e13563f50",
+            "Name": "PL-3"
+        },
+        {
+            "UUID": "8d405042-8e2e-4904-850a-deadbe1120d5",
+            "Name": "PL-4"
+        },
+        {
+            "UUID": "de0e21e0-0eab-4555-b44c-227276b45ecc",
+            "Name": "PL-5"
+        }
+    ],
+    "RDTEType": [
+        {
+            "UUID": "da654439-1dd5-468b-8607-adafa45ec1ea",
+            "Name": "Zone A"
+        },
+        {
+            "UUID": "7a72f3d2-7705-445a-b0ef-945847d44d90",
+            "Name": "Zone B"
+        },
+        {
+            "UUID": "b6be5242-6e24-463c-a8ba-c29e89b99d71",
+            "Name": "Zone C"
+        },
+        {
+            "UUID": "22a5e52e-a677-4831-a7ad-f502cce0aa3e",
+            "Name": "Zone D"
+        }
+    ],
+    "InformationTechnologyType": [
+        {
+            "UUID": "77111c6b-351e-4555-893e-e7400565f024",
+            "Subset": "Information Systems",
+            "Categorization": "Major Applications"
+        },
+        {
+            "UUID": "f64caac5-ac6c-4277-9408-1da600a009ec",
+            "Subset": "Information Systems",
+            "Categorization": "Enclaves"
+        },
+        {
+            "UUID": "cb78d3df-06c8-42be-a42c-5a1cb0e4d121",
+            "Subset": "Platform IT",
+            "Categorization": "PIT Systems"
+        },
+        {
+            "UUID": "a2fec036-3b19-442e-8774-fba8b6a05c22",
+            "Subset": "Platform IT",
+            "Categorization": "PIT Subsystems"
+        },
+        {
+            "UUID": "2d647bca-ad5c-4bff-86ea-a588dbbb7bc1",
+            "Subset": "Platform IT",
+            "Categorization": "PIT Products"
+        },
+        {
+            "UUID": "796381f2-a3a9-4cc4-8f31-1331cb21c1c8",
+            "Subset": "IT Services",
+            "Categorization": "Internal"
+        },
+        {
+            "UUID": "11e50e2a-1022-42f6-9f55-1f358b4ce052",
+            "Subset": "IT Services",
+            "Categorization": "External"
+        },
+        {
+            "UUID": "ac7464dd-f800-49f6-b866-a19e4f0e64f8",
+            "Subset": "IT Products",
+            "Categorization": "Software"
+        },
+        {
+            "UUID": "b9dbce9b-58f1-4b08-a7f6-5b861836f812",
+            "Subset": "IT Products",
+            "Categorization": "Hardware"
+        },
+        {
+            "UUID": "bdb24b7a-dc7d-46fc-a65f-15ef5f9ad89c",
+            "Subset": "IT Products",
+            "Categorization": "Applications"
+        }
+    ],
+    "AuthorizingOfficialType": [
+        {
+            "UUID": "5f7e3646-f02f-40a3-a881-019254fe0d10",
+            "Name": "AETC RT&E"
+        },
+        {
+            "UUID": "30c11143-4653-4c11-bd12-0411a19771b6",
+            "Name": "AF Enterprise"
+        },
+        {
+            "UUID": "8a112e6e-833d-458a-a8f6-7632c2004036",
+            "Name": "AFMC DTE"
+        },
+        {
+            "UUID": "7c466771-bf19-444b-b1e0-9cbc4d81d133",
+            "Name": "AFOTEC"
+        },
+        {
+            "UUID": "cbb40c01-6717-4d98-b254-9822e62ffc46",
+            "Name": "Aircraft"
+        },
+        {
+            "UUID": "cff5902a-b3e0-45a8-ac68-538d5f7b4112",
+            "Name": "Civil Engineering"
+        },
+        {
+            "UUID": "cf6d88a1-7fc1-4359-b5d9-9d5c446f448d",
+            "Name": "Civil Engineering (ICS)"
+        },
+        {
+            "UUID": "b79a0ac5-ed88-41ac-8edd-3c125d595a8c",
+            "Name": "Command and Control"
+        },
+        {
+            "UUID": "7f60b68b-2bf2-4b4d-9aed-491ed6861ced",
+            "Name": "DC3"
+        },
+        {
+            "UUID": "3bbc65db-b4be-4166-8c0c-0fa865382ebc",
+            "Name": "Finance"
+        },
+        {
+            "UUID": "f0393d28-6783-468a-bd78-43b147a7555e",
+            "Name": "Industrial Depot Maint."
+        },
+        {
+            "UUID": "770298a8-8a44-49bc-827b-e2aa6895b73b",
+            "Name": "Logistics"
+        },
+        {
+            "UUID": "47a9a2bf-92dc-4ab3-92d6-9151f46b61d4",
+            "Name": "Nuclear"
+        },
+        {
+            "UUID": "715c0281-3f00-4ba9-977c-1d37c21d9f5d",
+            "Name": "Nuclear (non – NC3)"
+        },
+        {
+            "UUID": "661933da-eb4c-48b2-8680-223cbc54ad8c",
+            "Name": "OTI/LVC"
+        },
+        {
+            "UUID": "c5724649-0e15-4314-ad9e-e02495c7335c",
+            "Name": "Rapid Cyber Acquisition"
+        },
+        {
+            "UUID": "2c0467c6-bd44-4765-aebb-67a0c2d39148",
+            "Name": "Special Access Programs (SAP)"
+        },
+        {
+            "UUID": "4a5b9b74-91e9-4051-a06e-0c67ca1d90e3",
+            "Name": "Science & Technology"
+        },
+        {
+            "UUID": "9756341b-5eaf-4977-834c-9a03a1a6780a",
+            "Name": "SFS/LE"
+        },
+        {
+            "UUID": "63e7517e-e3ab-4aed-bd05-2edf2ed427bb",
+            "Name": "Space"
+        },
+        {
+            "UUID": "ef1d1019-e3fd-42b2-a6d3-f113df464894",
+            "Name": "USAFA"
+        },
+        {
+            "UUID": "78872bb8-99dd-4073-a6ec-7ead4b2907e1",
+            "Name": "Weapons"
+        }
+    ],
+    "OperationalStatusType": [
+        {
+            "UUID": "496536d1-3333-4dba-b1f4-18d9bdfee00f",
+            "Name": "Operational"
+        },
+        {
+            "UUID": "dfcdb845-128f-4690-8ecf-078abf596dfd",
+            "Name": "Under Development"
+        },
+        {
+            "UUID": "309c22c0-9b32-4af6-949a-fd77d79e8409",
+            "Name": "Major Modification"
+        }
+    ],
+    "NSSQuestionaire": [
+        {
+            "UUID": "d8c5c8a7-9c4d-4a11-b3d2-482853b51661",
+            "Intel": true,
+            "Crypto": false,
+            "CommandControl": true,
+            "Weapon": true,
+            "Business": true,
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d"
+        }
+    ],
+    "CNSSQuestionaire": [
+        {
+            "UUID": "f2e89b6a-4c1d-47e5-9f3b-a26e47d8c912",
+            "CrossDomain": false,
+            "ISR": true,
+            "ClassifiedProcessed": true,
+            "NC3": false,
+            "Space": true,
+            "Mission": true,
+            "Program_ID": "50207084-d4b2-45bd-a6ac-66788063ca5d",
+            "PIIPHI_ID": null
         }
     ]
 }
